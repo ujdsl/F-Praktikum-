@@ -1,0 +1,49 @@
+REPORT-FILE from 01/01/2003 00:31:47.750  written 01/01/2003 00:39:45
+REALTIME: 428.750     
+TOTALSUM: 1205178     
+ROISUM: 208049      
+MAXVAL: 5299        
+LIVETIME: 417.820     
+cmline0=01/01/2003 00:31:47.750 
+range=2048
+prena=22
+mcsmode=0
+roimin=250
+roimax=500
+rtpreset=2400.000    
+ltpreset=1800.000    
+evpreset=0           
+swpreset=1000        
+rampmode=0
+rampstart=0
+rampstep=1
+rampbin=1
+ramplen=4096
+qdacuse=0
+qdac=2048
+dac1use=0
+dac1val=0
+impsel=f
+thrstart=1716
+thr1=1716
+thr2=1716
+thrclk=1716
+diguse=0
+digval=0
+cycles=10
+sequences=1
+mempart=0
+dwelltime=0
+dwellunit=0
+syncout=f0f
+autoinc=0 
+;datname=C:\FP\Messdaten 2018\Stoll, Kaiser\01SpektrumNa22_bewglDetektor.mcd
+savedata=0 
+fmt=asc
+smoothpts=5 
+caluse=1 
+caloff=0.000000
+calfact=1.000000
+calfact2=0
+calfact3=0
+calunit=keV
