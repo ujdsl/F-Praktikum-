@@ -110,16 +110,6 @@ aber dennoch nicht so gering,
 dass man mit einem akzeptablen Zeitaufwand ein statistisch relevantes Ergebnis erhält.
 
 \subsection{$\gamma$-$\gamma$-Winkelkorrelation}
-Entstehen bei einem radiaktiven Zerfall oder einer Annihilation zwei Gamma-Quanten, sind sie
-in ihrem Winkel zueinander korreliert. Das heißt, dass es eine Winkelverteilung der Intensität
-der Koinzidenzen gibt, die charakteristisch für diese Art Zerfall ist. 
-
-Der einfachste Fall ist die Annihilation von Positron und Elektron, bei der Gesamtimpuls von $~0$ 
-erhalten bleibt. So werden die Gamma-Quanten unter einem Winkel von $180^\circ$ zueinander gemessen.
-
-Im Fall eines Kerns, der über eine Kaskade von 2 Gamma-Quanten zerfällt wird die Annahme gemacht, dass
-die Lebensdauer des Zwischenzustands so kurz ist, dass sich die Orientierung des Kerns im Vergleich 
-zum ersten Zerfall nicht verändert. 
 
 \section{Versuchsaufbau und Messgeräte}
 
