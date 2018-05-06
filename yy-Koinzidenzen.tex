@@ -7,6 +7,7 @@
 \usepackage{amsmath,amssymb,amstext}
 \usepackage{graphicx}
 \usepackage[justification=RaggedRight, singlelinecheck=false]{caption}
+\usepackage{tikz}
 
 
 \title{Fortgeschrittenen Praktikum Teil 1: IKF}
@@ -66,12 +67,6 @@ Im ersten Versuchsteil soll die Winkelverteilung zweier bei der Paarvernichtung 
 p \rightarrow n + e^+ + \nu_e
 \end{align}
 
-Dabei emittiert in unserem Fall das $^{22}$Na  ein Positron und ein (nicht messbares) Neutrino und geht in einen angeregten Neon-Kern über. Dieser strahlt nach kurzer Zeit ein weiteres $\gamma$-Quant ab und geht in den Grundzustand als $^{22}$Ne über. In Abbildung \ref{Na22} ist das Zerfallsschema nochmal dargestellt.
-
-Im zweiten Versuchsteil untersuchen wir eine $^{60}$Co-Probe, welche durch $\beta^-$-Zerfall in einen angeregten $^{60}$Ni-Kern zerfällt. Bei der Abregung sind zwei $\gamma$-Übergänge möglich, durch die zwei Photonen mit den Energien von 1,172 MeV und 1,33 MeV ausgesandt werden. Da der Zwischenzustand mit einer Lebensdauer  von $10^{-12}$s sehr kurzlebig ist, treten die beiden Quanten quasi gleichzeitig auf. In Abbildung \ref{Co60} ist das zugehörige Termschema ebenfalls dargestellt.
-
-
-
 \begin{figure}[htbp] 
 	\begin{minipage}[t]{0.45\linewidth} 
      \includegraphics[width=1\textwidth]{Na22.png}
@@ -85,6 +80,14 @@ Im zweiten Versuchsteil untersuchen wir eine $^{60}$Co-Probe, welche durch $\bet
   \label{Co60}
 \end{minipage}
 \end{figure}
+
+Dabei emittiert in unserem Fall das $^{22}$Na  ein Positron und ein (nicht messbares) Neutrino und geht in einen angeregten Neon-Kern über. Dieser strahlt nach kurzer Zeit ein weiteres $\gamma$-Quant ab und geht in den Grundzustand als $^{22}$Ne über. In Abbildung \ref{Na22} ist das Zerfallsschema nochmal dargestellt.
+
+Im zweiten Versuchsteil untersuchen wir eine $^{60}$Co-Probe, welche durch $\beta^-$-Zerfall in einen angeregten $^{60}$Ni-Kern zerfällt. Bei der Abregung sind zwei $\gamma$-Übergänge möglich, durch die zwei Photonen mit den Energien von 1,172 MeV und 1,33 MeV ausgesandt werden. Da der Zwischenzustand mit einer Lebensdauer  von $10^{-12}$s sehr kurzlebig ist, treten die beiden Quanten quasi gleichzeitig auf. In Abbildung \ref{Co60} ist das zugehörige Termschema ebenfalls dargestellt.
+
+
+
+
 
 \subsection{Koinzidenztheorie}
 Eine Koinzidenz ist dann vorhanden, wenn zwei Detektoren
@@ -171,13 +174,7 @@ Zum Nachweise der $\gamma$-Strahlung werden in diesem Versuch zwei NaI-Szintilla
   \caption{Schematischer Aufbau eines NaI-Szintillationszählers}
   \label{PMT}
 \end{figure}
-
-
-\begin{figure}[htbp]  
-     \includegraphics[width=0.7\textwidth]{Aufbau.pgf}
-  \caption{Schematischer Aufbau eines NaI-Szintillationszählers}
-  \label{PMT2}
-\end{figure}
+\input{Aufbau.pgf}
 
 \section{Versuchsteil 1}
 
