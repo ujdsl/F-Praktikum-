@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.1.7)  6 MAY 2018 09:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.1.7)  6 MAY 2018 10:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -395,34 +395,34 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 ) [3] [4] [5]
-(./yy-Koinzidenzen.aux) ) 
+[6] (./yy-Koinzidenzen.aux) ) 
 Here is how much of TeX's memory you used:
  6923 strings out of 494879
  110241 string characters out of 6178492
- 263310 words of memory out of 5000000
+ 262310 words of memory out of 5000000
  10139 multiletter control sequences out of 15000+600000
  17834 words of font info for 56 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  51i,10n,51p,8826b,481s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/reinhold/.texlive2017/texmf-var/fonts/pk/ljfou
-r/jknappen/ec/ecsx1095.600pk> </home/reinhold/.texlive2017/texmf-var/fonts/pk/l
-jfour/jknappen/ec/ecsx1440.600pk> </home/reinhold/.texlive2017/texmf-var/fonts/
-pk/ljfour/jknappen/ec/ecrm1095.600pk> </home/reinhold/.texlive2017/texmf-var/fo
-nts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/reinhold/.texlive2017/texmf-va
-r/fonts/pk/ljfour/jknappen/ec/ecsx1200.600pk> </home/reinhold/.texlive2017/texm
-f-var/fonts/pk/ljfour/jknappen/ec/ecsx2074.600pk></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on yy-Koinzidenzen.pdf (5 pages, 159995 bytes).
+ </home/reinhold/.texlive2017/texmf-var/fonts/pk/l
+jfour/jknappen/ec/ecsx1095.600pk> </home/reinhold/.texlive2017/texmf-var/fonts/
+pk/ljfour/jknappen/ec/ecsx1440.600pk> </home/reinhold/.texlive2017/texmf-var/fo
+nts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </home/reinhold/.texlive2017/texmf-va
+r/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/reinhold/.texlive2017/texm
+f-var/fonts/pk/ljfour/jknappen/ec/ecsx1200.600pk> </home/reinhold/.texlive2017/
+texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx2074.600pk></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on yy-Koinzidenzen.pdf (6 pages, 160832 bytes).
 PDF statistics:
- 308 PDF objects out of 1000 (max. 8388607)
- 63 compressed objects within 1 object stream
+ 311 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

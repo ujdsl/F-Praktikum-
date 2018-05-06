@@ -22,8 +22,13 @@
 \tableofcontents
 \newpage
 
-
 \section{Zielsetzung}
+In dem Versuch $\gamma$-$\gamma$-Koinzidenzen sollen für zwei Beispiele die Winkelverteilung der Zählraten
+gemessen werden. Zum Einen entsteht beim Betazerfall von $^{22}Na$ ein Positron, welches wiederum mit
+einem Elektron zu zwei $\gamma$-Quanten annihiliert. Zum Anderen zerfällt $^{60}Co$ zu $^{60}Ni$
+und dieses dann über Kaskaden in den Grundzustand. Dabei werden zwei $\gamma$-Quanten emittiert,
+deren Winkelkorrelation gemessen werden soll. Physikalisch relevant sind die Messungen von 
+Winkelverteilungen, weil 
 
 
 \section{Theoretische Grundlagen}
@@ -129,7 +134,8 @@ angegeben werden. Dabei ind die $A_\nu^{(i)}$ Koeffizienten, die aus Tabellen ab
 $P_\nu(\cos \theta)$ sind Legendre-Polynome der $\nu$-ten Ordnung, wobei für nicht-polarisierte Strahlung
 allerdings nur geradzahlige Polynome in der Winkelverteilung auftreten. Dadurch treten nur geradzahlige
 Potenzen von $\cos \theta$ auf, was die Winkelverteilung $W(\theta)$ zu einer zu $90^\circ$ symmetrischen
-Funktion macht.
+Funktion macht. Es reicht daher die Messung auf einen Bereich von $\theta=0^\circ$ bis $90^\circ$ zu 
+beschränken.
 
 \section{Versuchsaufbau und Messgeräte}
 
