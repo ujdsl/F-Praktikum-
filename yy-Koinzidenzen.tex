@@ -69,7 +69,7 @@ Im ersten Versuchsteil soll die Winkelverteilung zweier bei der Paarvernichtung 
 p \rightarrow n + e^+ + \nu_e
 \end{align}
 
-Dabei emittiert in unserem Fall das $^{22}$Na  ein Positron und ein (nicht messbares) Neutrino und geht in einen angeregten Neon-Kern über. Dieser strahlt nach kurzer Zeit ein weiteres $\gamma$-Quant ab und geht in den Grundzustand als $^{22}$Ne über. In Abbildung \ref{Na22} ist das Zerfallsschema nochmal dargestellt.
+Dabei emittiert in unserem Fall das $^{22}$Na  ein Positron und ein (nicht messbares) Neutrino und geht in einen angeregten Neon-Kern über. Dieser strahlt nach kurzer Zeit ein weiteres $\gamma$-Quant mit einer Energie von 1275keV ab und geht in den Grundzustand als $^{22}$Ne über. In Abbildung \ref{Na22} ist das Zerfallsschema nochmal dargestellt.
 
 Im zweiten Versuchsteil untersuchen wir eine $^{60}$Co-Probe, welche durch $\beta^-$-Zerfall in einen angeregten $^{60}$Ni-Kern zerfällt. Bei der Abregung sind zwei $\gamma$-Übergänge möglich, durch die zwei Photonen mit den Energien von 1,172 MeV und 1,33 MeV ausgesandt werden. Da der Zwischenzustand mit einer Lebensdauer  von $10^{-12}$s sehr kurzlebig ist, treten die beiden Quanten quasi gleichzeitig auf. In Abbildung \ref{Co60} ist das zugehörige Termschema ebenfalls dargestellt.
 
@@ -160,12 +160,22 @@ Allgemein kann die Winkelverteilung über die Formel
 \begin{equation}
  W(\theta)=\sum_\nu A_\nu^{(1)} A_\nu^{(2)} P_\nu ( \cos \theta)
 \end{equation}
-angegeben werden \cite{grundlagen}. Dabei ind die $A_\nu^{(i)}$ Koeffizienten, die aus Tabellen abgelesen werden können.
+angegeben werden \cite{grundlagen}. Dabei sind die $A_\nu^{(i)}$ Koeffizienten, die aus Tabellen abgelesen werden können.
 $P_\nu(\cos \theta)$ sind Legendre-Polynome der $\nu$-ten Ordnung, wobei für nicht-polarisierte Strahlung
 allerdings nur geradzahlige Polynome in der Winkelverteilung auftreten. Dadurch treten nur geradzahlige
 Potenzen von $\cos \theta$ auf, was die Winkelverteilung $W(\theta)$ zu einer zu $90^\circ$ symmetrischen
 Funktion macht. Es reicht daher die Messung auf einen Bereich von $\theta=0^\circ$ bis $90^\circ$ zu 
 beschränken.
+
+\subsection{Fehlerrechnung}
+
+Wie jede Messung ist auch der durchgeführte Versuch nicht frei von fehlerbehafteten Größen. Da wir keine genaueren Angaben treffen können, gehen wir von normalverteilten Größen aus, deren Fehler sich in erster Näherung wie folgt berechnen lässt:
+
+\begin{align}
+\Delta N = \sqrt{N}
+\end{align}
+
+Mithilfe dieser Formel werden alle im Folgenden angegebenen Fehler abgeschätzt. Damit decken wir einen Bereich von $1\sigma$ ab, das heißt der wahre Wert liegt mit einer Wahrscheinlichkeit von $66,67\%$ innerhalb unseres Fehlerbereichs. 
 
 \section{Versuchsaufbau und Messgeräte}
 
@@ -190,22 +200,102 @@ Zum Nachweise der $\gamma$-Strahlung werden in diesem Versuch zwei NaI-Szintilla
   \label{PMT3}
 \end{figure}
 
-\section{Versuchsteil 1}
+\section{Versuchsteil 1: Koinzidenzmessung von 511keV-Vernichtungsquanten bei Paarvernichtung}
+Im ersten Versuchsteil soll die Winkelverteilung der bei der Paarvernichtung entstehenden Photonen gemessen werden. Diese sollten aufgrund der Impulserhaltung in einem Winkel von 180$^\circ$ auseinander fliegen, d.h. die Winkelverteilung müsste bei 180$^\circ$ ein scharfes Maximum an Koinzidenz-Ereignissen aufweisen. Zuvor müssen jedoch die Spektren der einzelnen Detektoren analysiert und eine Koinzidenzzeit festgelegt werden, innerhalb derer die Detektoren ein $\gamma$-Quant messen müssen, um ein wahres Koinzidenzereignis zu zählen. 
+
 
 
 \subsection{Durchführung}
+Zu Beginn des Versuchs werden jeweils die Einzelspektren der beiden Detektoren aufgenommen und über die Messelektronik im PC ausgegeben. Die Spektren weisen jeweils zwei Peaks auf, welche den entstehenden Gammaquanten einerseits der Paarvernichtung bei 511keV und andererseits der Abregung des Ne-Kerns bei 1275keV entsprechen. Über die Elektronik werden die Zählraten jedoch nicht in Energien, sondern in Kanälen angegeben. Diese müssen nach Aufnahme der Spektren noch in Energien umgerechnet werden, um die Energie-Eichung des Aufbaus bestimmen zu können. Die beiden aufgenommenen Spektren finden sich in den Grafiken .dsdjb
+Für die beiden Detektoren liegen unterschiedliche Spannungsversorgungen vor, wobei auch die Verstärkungseinstellungen in den zugehörigen DDL-Vorverstärkern unterschiedlich gewählt werden musste, um ein vergleichbares Spektrum zu erhalten und alle Ereignisse zu messen. Aus den gemessenen Werten für die Lage der Peaks kann nun die Eichung der Zähler gemäß folgender Gleichung bestimmt werden:
 
+\begin{align}
+E_\gamma = a + b \cdot K
+\end{align}
+
+Die gewählten Parameter, wie auch die Kanallage der Peaks und die sich daraus ergebende Energieeichung finden sich in Tabelle \ref{para}. 
+
+\begin{table}[h]
+	\caption{Messparameter der Detektoren}
+	\begin{tabular}{|c|c|c|c|c|c|c|c|}
+	\hline
+	 & Spannung & Course Gain & Fine Gain & Peak 1 & Peak 2 & a & b\\ \hline
+	 Fixed Detektor & 700V & 4 & 4.2 & 339 & 1432 & 274,04 keV & 0,70 $\frac{keV}{K}$\\ \hline
+	 Bewegl. Detektor & 1030V & 6.4 & 9.1 & 596 & 1499 & 6,74 keV & 0,85 $\frac{keV}{K}$\\ \hline
+	\end{tabular}
+\label{para}
+\end{table}
+
+\begin{figure}[htbp]  
+     \includegraphics[width=0.7\textwidth]{Spektrum_von_Natrium-22_(fixierter_Detektor).pdf}
+  \caption{Spektrum Na-22 des fixierten Detektors}
+  \label{Na-fixed}
+\end{figure}
+
+\begin{figure}[htbp]  
+     \includegraphics[width=0.7\textwidth]{Spektrum_von_Natrium-22_(beweglicher_Detektor).pdf}
+  \caption{Spektrum Na-22 des beweglichen Detektors}
+  \label{Na-beweg}
+\end{figure}
+
+Nun muss noch die Koinzidenzzeit der beiden Detektoren festgelegt werden. Dafür muss zunächst die Zeitauflösung der Anordnung bestimmt werden, um keine Ereignisse zu verpassen. Dafür werden an den beiden TSCAs die Energiefenster so eingestellt, dass ausschließlich die den 511-$\gamma$-Quanten zugehörigen Peaks zu sehen sind und die so entstandenen Ausgangssignale dem Time-Analyzer zugeführt. Dieser wandelt die Zeitdifferenz zwischen den beiden Signalen in die Impulshöhe seines Ausgangssignals. Um die Zeitauflösung zu bestimmen, wird das Ausgabesignal des Time-Analyzers als Spektrum angezeigt. Dabei werden zwei Messungen durchgeführt, wobei bei der zweiten Messung eine Verzögerung von 96ns auf das Signal gelegt wird. Durch die Bestimmung der Kanallage der Peaks und die Bestimmung ihrer Halbwertsbreite kann so die Zeitauflösung der Koinzidenzmessung analysiert werden. Die bestimmten Peaklagen und die zugehörige Verzögerungen finden sich in Tabelle \ref{zeit}. 
+
+\begin{table}[h]
+	\caption{Messparameter der Detektoren}
+	\begin{tabular}{|c|c|c|}
+	\hline
+	 & Messung 1 & Messung 2\\ \hline
+	 Mittlere Kanallage & 458 & 1204\\ \hline
+	 Zeitl. Verzögerung & 0 ns & 96 ns\\ \hline
+	\end{tabular}
+\label{zeit}
+\end{table}
+
+Um die Winkelverteilung zu vermessen wird die Position des beweglichen Detektors in kleinen Schritten verändert und die entsprechende Koinzidenzrate aufgenommen. Aus den beiden Peak-Positionen und der gemessenen Halbwertsbreite von 273 Kanälen kann mit folgender Gleichung die Zeitauflösung bestimmt werden:
+\begin{align}
+\Delta t = \Delta K\cdot\frac{Delaytime}{K_{Delaytime=96ns} - K_{Delaytime=0}} = 273\cdot\frac{96ns}{1204-458}=35ns
+\end{align}
+
+Nun stellt sich ein weiteres Problem, da sichergestellt werden muss, dass das als Stop-Signal in den Time-Analyzer einfließende Signal des Detektors 1 nach dem als Start einfließenden Signal des Detektors 2 im Time-Analyzer ankommt. Um dies sicherzustellen und auch möglichst alle Koinzidenzereignisse im Time-Analyzer zu registrieren, wird mithilfe der Delay-Box eine zusätzliche Verzögerung auf das Stop-Signal geschaltet. Um wirklich alle Koinzidenz-Ereignisse zu messen und für jede das Stop-Signal definiert nach 
+dem Start-Signal zu erhalten, wird diese auf 240ns eingestellt.
+
+Da sich der Winkel des beweglichen Detektors am Messaufbau nicht direkt ablesen lässt, wird näherungsweise eine gerade Skala für die Position des Detektors verwendet und über den geometrischen Aufbau in Winkel umgerechnet. Dafür wird folgende Formel für die Beziehung des Abstands d zur Nullposition (Detektoren genau gegenüberliegend, Winkel 180$^\circ$) und den Drehwinkel $\alpha$ verwendet, wobei der Abstand der Quelle zum Detektor 635mm beträgt. 
+
+\begin{align}
+\alpha=\frac{\arcsin{\frac{d}{635mm}}}{2\pi}\cdot 360^\circ
+\end{align}
+
+Um weiterhin nur $\gamma$-Quanten zu messen, welche exakt in entgegengesetzter Richtung fliegen, wird um die Quelle in Richtung beider Detektoren eine Blei-Abschirmung angebracht, die nur einen sehr schmalen Spalt aufweist. Damit gelangen nur entgegengesetzt entstehende Photonen in die Detektoren und wir können unsere Koinzidenzmessung starten. 
 
 \subsection{Auswertung}
 
+\begin{figure}[htbp]  
+     \includegraphics[width=0.7\textwidth]{Winkelkorrelation_der_Elektron-Positron-Annihilation.pdf}
+  \caption{Winkelverteilung 511keV - Gammaquanten}
+  \label{511}
+\end{figure}
 
-\section{Versuchsteil 2}
+In Abbildung \ref{511} finden sich die gemessenen Zählraten abhängig des Drehwinkels des beweglichen Zählers. Wie zu erwarten findet sich um 0$^\circ$ ein scharfes Maximum, welches schon bei leichter Verschiebung des Detektors rasch abfällt. Damit ist unsere Erwartung sehr gut erfüllt und wir haben die Winkelabhängigkeit der beiden $\gamma$-Quanten sehr gut bestätigt. 
 
+In einer weiteren Messung wird das Energiefenster des beweglichen Detektors auf den 1275keV Peak eingestellt, um auch hier die erwartete Winkelkorrelation zwischen den beiden Photonen zu erhalten. Wir erwarten allerdings keine Winkelkorrelation zwischen den Photonen, da diese ja unabhängig voneinander (eins durch die Paarvernichtung und eins durch die Abregung des Ne-Kerns) emittiert werden. Wir vermessen drei verschiedene Drehwinkel des beweglichen Detektors jeweils für 12 Minuten, um eine ausreichende Statistik zu erhalten. In Tabelle \ref{Vergleich} finden sich die gemessenen Ereignisse und wie zu erwarten sind diese für alle Winkel in etwa gleich und wir können keine Winkelkorrelation zwischen den Photonen feststellen.
 
+\begin{table}[h]
+	\caption{Winkelkorrelation unabhängiger Photonen}
+	\begin{tabular}{|c|c|}
+	\hline
+	 Winkel & Ereignisse\\ \hline
+	 30$^\circ$ & 3618 $\pm$ 60\\ \hline
+	 60$^\circ$ & 3757 $\pm$ 61\\ \hline
+	 90$^\circ$ & 3730 $\pm$ 61\\ \hline
+	\end{tabular}
+\label{Vergleich}
+\end{table}
+
+\section{Versuchsteil 2: Winkelkorrelation des $\beta$-Zerfalls von $^{60}$Co}
 
 \subsection{Durchführung}
 
-
+Wie schon im Versuchsteil 1 wird nun die Winkelverteilung zwischen den $\gamma$-Quanten des $^{60}$Co-Zerfalls gemessen. Dafür bleibt der prinzipielle Aufbau des Experiments wie in Versuchsteil 1 unverändert. Wiederum wird der Winkelbereich zwischen 0$^\circ$ und 90$^\circ$ mit 6 Messpunkten ausgemessen und die Koinzidenzzählrate bestimmt. Anschließend werden die gemessenen Winkelverteilungen einer im Kapitel 2 beschriebenen Zerfallskaskade zugeordnet und über die Einzelzählrate die Aktivität der radioaktiven Quelle bestimmt. 
 
 \subsection{Auswertung}
 
@@ -214,7 +304,7 @@ Zum Nachweise der $\gamma$-Strahlung werden in diesem Versuch zwei NaI-Szintilla
 
 \section{Zusammenfassung/Fazit}
 
-Text
+
 
 \bibliography{Literaturverzeichnis}
 \end{document}

@@ -8,11 +8,12 @@
 \contentsline {subsection}{\numberline {2.3}Betazerfall von $^{22}Na$ und $^{60}Co$}{4}
 \contentsline {subsection}{\numberline {2.4}Koinzidenztheorie}{5}
 \contentsline {subsection}{\numberline {2.5}$\gamma $-$\gamma $-Winkelkorrelation}{6}
+\contentsline {subsection}{\numberline {2.6}Fehlerrechnung}{7}
 \contentsline {section}{\numberline {3}Versuchsaufbau und Messger\IeC {\"a}te}{7}
-\contentsline {section}{\numberline {4}Versuchsteil 1}{8}
-\contentsline {subsection}{\numberline {4.1}Durchf\IeC {\"u}hrung}{8}
-\contentsline {subsection}{\numberline {4.2}Auswertung}{8}
-\contentsline {section}{\numberline {5}Versuchsteil 2}{8}
-\contentsline {subsection}{\numberline {5.1}Durchf\IeC {\"u}hrung}{8}
-\contentsline {subsection}{\numberline {5.2}Auswertung}{8}
-\contentsline {section}{\numberline {6}Zusammenfassung/Fazit}{8}
+\contentsline {section}{\numberline {4}Versuchsteil 1}{7}
+\contentsline {subsection}{\numberline {4.1}Durchf\IeC {\"u}hrung}{9}
+\contentsline {subsection}{\numberline {4.2}Auswertung}{12}
+\contentsline {section}{\numberline {5}Versuchsteil 2}{13}
+\contentsline {subsection}{\numberline {5.1}Durchf\IeC {\"u}hrung}{13}
+\contentsline {subsection}{\numberline {5.2}Auswertung}{13}
+\contentsline {section}{\numberline {6}Zusammenfassung/Fazit}{13}
