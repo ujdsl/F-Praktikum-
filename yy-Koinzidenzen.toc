@@ -16,5 +16,4 @@
 \contentsline {section}{\numberline {5}Versuchsteil 2: Winkelkorrelation des $\beta $-Zerfalls von $^{60}$Co}{14}
 \contentsline {subsection}{\numberline {5.1}Durchf\IeC {\"u}hrung}{14}
 \contentsline {subsection}{\numberline {5.2}Auswertung}{15}
-\contentsline {paragraph}{\nonumberline Bestimmung der Aktivit\IeC {\"a}t}{15}
 \contentsline {section}{\numberline {6}Zusammenfassung/Fazit}{15}
