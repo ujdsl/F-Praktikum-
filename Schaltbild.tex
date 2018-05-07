@@ -25,21 +25,34 @@
 \node [block, name=tsca2, right of=ddl2, node distance=3cm] {TSCA};
 
 \draw [-] (pm1) -- node[] {} (ddl1);
-\draw [-] (ddl1) -- node[] {} (tsca1);
+\draw [-] (ddl1) -- node[name=line1] {} (tsca1);
 \draw [-] (pm2) -- node[] {} (ddl2);
-\draw [-] (ddl2) -- node[name=line1] {} (tsca2);
+\draw [-] (ddl2) -- node[] {} (tsca2);
 
-\node [block, name=time, below of=line1, node distance=4cm, align=center]{Time\\ Analyzer};
+
+\node[block, name=adc, right of=tsca2, node distance=4cm] {ADC};
+
+\node [block, name=time, above of=tsca1, node distance=3cm, align=center, xshift=1.5cm]{Time\\ Analyzer};
 \node [input, name=node1, above of=line1, node distance=1cm] {};
-\draw[-] (tsca1) |- node[] {} (node1) -- node[label={[rotate=-90, text depth=-6ex]right: Start}]{} (time);
-\node [block, name=delay, below of=tsca2]{Delay};
-\draw[-] (time) -| node[label={[rotate=90, text depth=-3ex]right:Stop}]{} (delay);
-\draw[-] (delay) -- node[]{} (tsca2);
+\draw[-] (tsca1) |- node[label={[rotate=90, text depth=-1ex, xshift=-2cm]right:Start}] {}  (time);
+\node [block, name=delay, above of= adc, node distance=3cm]{Delay};
+\draw[-] (time) |- node[label={[rotate=0, text depth=2ex]right:Stop}]{} (delay);
 
-\node[block, name=adc, right of=node1, node distance=4cm] {ADC};
-\draw[-] (tsca1) -| node[]{} (adc);
-\draw[-] (tsca2) -| node[]{} (adc);
+\node [input, name=node2, below of=time, node distance =4cm]{};
+\draw[-] (delay) |- node[]{} (node2) -| node[]{} (tsca2);
+
+%\draw[-] (tsca1) -| node[]{} (adc);
+\draw[-] (tsca2) -- node[]{} (adc);
 \node [block, name=pc, right of=adc]{PC};
 \draw[-] (adc) -- node[]{} (pc);
+
+\node[block, name=count, above of =pc]{Counter};
+\draw[-] (time) -| node[]{} (count);
+\draw[-] (tsca1) -- node[]{} (count);
+
+\node [input, name=node3, below of=tsca2, node distance =1.5cm]{};
+\draw[-] (ddl2) |- node[]{} (node3) -| node[]{} (adc);
+
+
 
 \end{tikzpicture}
