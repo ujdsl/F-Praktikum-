@@ -7,6 +7,8 @@
 \usepackage{amsmath,amssymb,amstext}
 \usepackage{graphicx}
 \usepackage[justification=RaggedRight, singlelinecheck=false]{caption}
+\usepackage{tikz}
+\usepackage[square,sort,comma,numbers]{natbib}
 
 
 \title{Fortgeschrittenen Praktikum Teil 1: IKF}
@@ -21,6 +23,7 @@
 \newpage
 \tableofcontents
 \newpage
+\bibliographystyle{alphadin}
 
 \section{Zielsetzung}
 In dem Versuch $\gamma$-$\gamma$-Koinzidenzen sollen für zwei Beispiele die Winkelverteilung zweier gleichzeitig entstehender Photonen
@@ -84,6 +87,8 @@ Im zweiten Versuchsteil untersuchen wir eine $^{60}$Co-Probe, welche durch $\bet
   \caption{Zerfallschema von $^{60}$Co}
   \label{Co60}
 \end{minipage}
+
+
 \end{figure}
 
 \subsection{Koinzidenztheorie}
@@ -106,7 +111,7 @@ Die Einzelzählraten der beiden Detektoren ergeben sich aus
 \end{equation}
 wobei $\varepsilon_i$ die Ansprechempfindlichkeit ist, $\omega_i$
 der Raumwinkel, unter dem der Detektor die Signalqualle sieht und
-$Q$ die Zerfallsrate der Probe. 
+$Q$ die Zerfallsrate der Probe \cite{versuch}. 
 
 Um die Koinzidenzrate zu erhalten, muss die Zählrate des 1. Detektors
 mit der Wahrscheinlichkeit multipliziert werden, dass der 2. 
@@ -155,7 +160,7 @@ Allgemein kann die Winkelverteilung über die Formel
 \begin{equation}
  W(\theta)=\sum_\nu A_\nu^{(1)} A_\nu^{(2)} P_\nu ( \cos \theta)
 \end{equation}
-angegeben werden. Dabei ind die $A_\nu^{(i)}$ Koeffizienten, die aus Tabellen abgelesen werden können.
+angegeben werden \cite{grundlagen}. Dabei ind die $A_\nu^{(i)}$ Koeffizienten, die aus Tabellen abgelesen werden können.
 $P_\nu(\cos \theta)$ sind Legendre-Polynome der $\nu$-ten Ordnung, wobei für nicht-polarisierte Strahlung
 allerdings nur geradzahlige Polynome in der Winkelverteilung auftreten. Dadurch treten nur geradzahlige
 Potenzen von $\cos \theta$ auf, was die Winkelverteilung $W(\theta)$ zu einer zu $90^\circ$ symmetrischen
@@ -174,9 +179,15 @@ Zum Nachweise der $\gamma$-Strahlung werden in diesem Versuch zwei NaI-Szintilla
 
 
 \begin{figure}[htbp]  
-     \includegraphics[width=0.7\textwidth]{Aufbau.pgf}
+     \include{Aufbau}
   \caption{Schematischer Aufbau eines NaI-Szintillationszählers}
   \label{PMT2}
+\end{figure}
+
+\begin{figure}[htbp]  
+     \include{Schaltbild}
+  \caption{Schematischer Aufbau eines NaI-Szintillationszählers}
+  \label{PMT3}
 \end{figure}
 
 \section{Versuchsteil 1}
@@ -205,5 +216,5 @@ Zum Nachweise der $\gamma$-Strahlung werden in diesem Versuch zwei NaI-Szintilla
 
 Text
 
-
+\bibliography{Literaturverzeichnis}
 \end{document}
