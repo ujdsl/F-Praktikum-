@@ -71,7 +71,7 @@ p \rightarrow n + e^+ + \nu_e
 
 Dabei emittiert in unserem Fall das $^{22}$Na  ein Positron und ein (nicht messbares) Neutrino und geht in einen angeregten Neon-Kern über. Dieser strahlt nach kurzer Zeit ein weiteres $\gamma$-Quant mit einer Energie von 1275keV ab und geht in den Grundzustand als $^{22}$Ne über. In Abbildung \ref{Na22} ist das Zerfallsschema nochmal dargestellt.
 
-Im zweiten Versuchsteil untersuchen wir eine $^{60}$Co-Probe, welche durch $\beta^-$-Zerfall in einen angeregten $^{60}$Ni-Kern zerfällt. Bei der Abregung sind zwei $\gamma$-Übergänge möglich, durch die zwei Photonen mit den Energien von 1,172 MeV und 1,33 MeV ausgesandt werden. Da der Zwischenzustand mit einer Lebensdauer  von $10^{-12}$s sehr kurzlebig ist, treten die beiden Quanten quasi gleichzeitig auf. In Abbildung \ref{Co60} ist das zugehörige Termschema ebenfalls dargestellt.
+Im zweiten Versuchsteil untersuchen wir eine $^{60}$Co-Probe, welche durch $\beta^-$-Zerfall in einen angeregten $^{60}$Ni-Kern zerfällt. Bei der Abregung sind zwei $\gamma$-Übergänge möglich, durch die zwei Photonen mit den Energien von 1,172 MeV und 1,33 MeV ausgesandt werden. Da der Zwischenzustand mit einer Lebensdauer  von $10^{-12}$s sehr kurzlebig ist, treten die beiden Quanten quasi gleichzeitig auf. In Abbildung \ref{Co60-bild} ist das zugehörige Termschema ebenfalls dargestellt.
 
 
 
@@ -85,7 +85,7 @@ Im zweiten Versuchsteil untersuchen wir eine $^{60}$Co-Probe, welche durch $\bet
 \begin{minipage}[t]{0.45\linewidth}  
      \includegraphics[width=0.7\textwidth]{Co60.png}
   \caption{Zerfallschema von $^{60}$Co}
-  \label{Co60}
+  \label{Co60-bild}
 \end{minipage}
 
 
@@ -166,6 +166,33 @@ allerdings nur geradzahlige Polynome in der Winkelverteilung auftreten. Dadurch 
 Potenzen von $\cos \theta$ auf, was die Winkelverteilung $W(\theta)$ zu einer zu $90^\circ$ symmetrischen
 Funktion macht. Es reicht daher die Messung auf einen Bereich von $\theta=0^\circ$ bis $90^\circ$ zu 
 beschränken.
+
+Die ersten drei relevanten Legendre-Polynome nehmen folgende Form an:
+\begin{eqnarray}
+ P_0 &=&1\\
+ P_2 & = & \frac{1}{2}(3 \cos^2 \theta - 1)\\
+ P_4 &=& \frac{1}{8}(35\cos^4 \theta - 30 \cos^2 \theta +3)
+\end{eqnarray}
+
+Durch Einsetzen der passenden Koeffizienten $A_\nu^{i}$ erhält man dann Winkelverteilungen für
+einige $\gamma$-$\gamma$-Kaskaden, die in Abbildung \ref{winkelvert} dargestellt sind.
+
+\begin{figure}[htbp]  
+     \includegraphics[width=0.7\textwidth]{Winkelverteilung.pdf}
+  \caption{Winkelkorrelationen für einige $\gamma$-$\gamma$-Kaskaden \cite{versuch}}
+  \label{winkelvert}
+\end{figure}
+
+Von speziellem Interesse für den Zerfall von $^60$Co ist die Winkelkorrelationsfunktion der 
+$4-2-0$-Kaskade. Sie wird hier einmal als Formel ausgeführt, um die theoretische Winkelkorrelation
+mit der gemessenen zu vergleichen \cite{versuch}.
+
+\begin{eqnarray}
+ W(\theta)&=&P_0+0.1020\cdot P_2+0.009087 P_4\\
+ &=&1+0.1020\cdot \frac{1}{2}(3 \cos^2 \theta - 1)+0.009087\cdot \frac{1}{8}(35\cos^4 \theta - 30 \cos^2 \theta +3)
+ \label{winkelverteilung}
+\end{eqnarray}
+
 
 \subsection{Fehlerrechnung}
 
