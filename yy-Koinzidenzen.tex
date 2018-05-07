@@ -187,27 +187,25 @@ Zum Nachweise der $\gamma$-Strahlung werden in diesem Versuch zwei NaI-Szintilla
   \label{PMT}
 \end{figure}
 
-
 \begin{figure}[htbp]  
      \include{Aufbau}
-  \caption{Schematischer Aufbau eines NaI-Szintillationszählers}
+  \caption{Schematischer Aufbau der Koinzidenmessung}
   \label{PMT2}
 \end{figure}
 
 \begin{figure}[htbp]  
      \include{Schaltbild}
-  \caption{Schematischer Aufbau eines NaI-Szintillationszählers}
+  \caption{Blockschaltbild der Analyse-Elektronik}
   \label{PMT3}
 \end{figure}
+
+Die beiden Detektoren sind gemäß Abbildung \ref{PMT3} mit einer komplexen Analyse-Elektronik verschaltet. Das Signal der Detektoren wird dabei zunächst in einem sogenannten DDL-Amplifier vorverstärkt, bevor es in den sogenannten Timing Single Channel Analyzer (TSCAs) je nach Signalstärke in einzelnen Kanälen als Ereignis gezählt wird. An den TSCAs sind Einstellungen zu einer sogenannten Energieschwelle bzw. einem Energiefenster wählbar, über welche nur Ereignisse mit einer bestimmten Mindestenergie bzw. in einem bestimmten Energiebereich als Ereignis gezählt werden. Dafür können entweder der Counter oder über ein Analog-Digital-Wandler (ADC) der PC verwendet werden, über den man sich die kompletten Spektren der Detektoren anzeigen lassen kann. Um nun aus den Einzelzählungen der Detektoren eine Koinzidenzmessung zu realisieren, werden die beiden Ausgangssignale der TSCAs als Start und Stop-Signal eines Time Analyzers verwendet, welcher die Dauer zwischen Start- und Stop-Signal in seine Ausgangsimpulshöhe umwandelt. Ereignisse mit einer definierten maximalen Zeitdifferenz werden anschließend in einem Counter gezählt und stellen später unsere Koinzidenzereignisse dar. Über eine zusätzliche Delay-Box können die Signale gezielt verzögert werden, was für die Zeitauflösung und die Einstellung der Koinzidenzzeit wichtig wird. 
 
 \section{Versuchsteil 1: Koinzidenzmessung von 511keV-Vernichtungsquanten bei Paarvernichtung}
 Im ersten Versuchsteil soll die Winkelverteilung der bei der Paarvernichtung entstehenden Photonen gemessen werden. Diese sollten aufgrund der Impulserhaltung in einem Winkel von 180$^\circ$ auseinander fliegen, d.h. die Winkelverteilung müsste bei 180$^\circ$ ein scharfes Maximum an Koinzidenz-Ereignissen aufweisen. Zuvor müssen jedoch die Spektren der einzelnen Detektoren analysiert und eine Koinzidenzzeit festgelegt werden, innerhalb derer die Detektoren ein $\gamma$-Quant messen müssen, um ein wahres Koinzidenzereignis zu zählen. 
 
-
-
 \subsection{Durchführung}
-Zu Beginn des Versuchs werden jeweils die Einzelspektren der beiden Detektoren aufgenommen und über die Messelektronik im PC ausgegeben. Die Spektren weisen jeweils zwei Peaks auf, welche den entstehenden Gammaquanten einerseits der Paarvernichtung bei 511keV und andererseits der Abregung des Ne-Kerns bei 1275keV entsprechen. Über die Elektronik werden die Zählraten jedoch nicht in Energien, sondern in Kanälen angegeben. Diese müssen nach Aufnahme der Spektren noch in Energien umgerechnet werden, um die Energie-Eichung des Aufbaus bestimmen zu können. Die beiden aufgenommenen Spektren finden sich in den Grafiken .dsdjb
-Für die beiden Detektoren liegen unterschiedliche Spannungsversorgungen vor, wobei auch die Verstärkungseinstellungen in den zugehörigen DDL-Vorverstärkern unterschiedlich gewählt werden musste, um ein vergleichbares Spektrum zu erhalten und alle Ereignisse zu messen. Aus den gemessenen Werten für die Lage der Peaks kann nun die Eichung der Zähler gemäß folgender Gleichung bestimmt werden:
+Zu Beginn des Versuchs werden jeweils die Einzelspektren der beiden Detektoren aufgenommen und über die Messelektronik im PC ausgegeben. Die Spektren weisen jeweils zwei Peaks auf, welche den entstehenden Gammaquanten einerseits der Paarvernichtung bei 511keV und andererseits der Abregung des Ne-Kerns bei 1275keV entsprechen. Über die Elektronik werden die Zählraten jedoch nicht in Energien, sondern in Kanälen angegeben. Diese müssen nach Aufnahme der Spektren noch in Energien umgerechnet werden, um die Energie-Eichung des Aufbaus bestimmen zu können. Die beiden aufgenommenen Spektren finden sich in den Abbildungen \ref{Na-beweg} und \ref{Na-fixed}. Für die beiden Detektoren liegen unterschiedliche Spannungsversorgungen vor, wobei auch die Verstärkungseinstellungen in den zugehörigen DDL-Vorverstärkern unterschiedlich gewählt werden musste, um ein vergleichbares Spektrum zu erhalten und alle Ereignisse zu messen. Aus den gemessenen Werten für die Lage der Peaks kann nun die Eichung der Zähler gemäß folgender Gleichung bestimmt werden:
 
 \begin{align}
 E_\gamma = a + b \cdot K
@@ -238,7 +236,7 @@ Die gewählten Parameter, wie auch die Kanallage der Peaks und die sich daraus e
   \label{Na-beweg}
 \end{figure}
 
-Nun muss noch die Koinzidenzzeit der beiden Detektoren festgelegt werden. Dafür muss zunächst die Zeitauflösung der Anordnung bestimmt werden, um keine Ereignisse zu verpassen. Dafür werden an den beiden TSCAs die Energiefenster so eingestellt, dass ausschließlich die den 511-$\gamma$-Quanten zugehörigen Peaks zu sehen sind und die so entstandenen Ausgangssignale dem Time-Analyzer zugeführt. Dieser wandelt die Zeitdifferenz zwischen den beiden Signalen in die Impulshöhe seines Ausgangssignals. Um die Zeitauflösung zu bestimmen, wird das Ausgabesignal des Time-Analyzers als Spektrum angezeigt. Dabei werden zwei Messungen durchgeführt, wobei bei der zweiten Messung eine Verzögerung von 96ns auf das Signal gelegt wird. Durch die Bestimmung der Kanallage der Peaks und die Bestimmung ihrer Halbwertsbreite kann so die Zeitauflösung der Koinzidenzmessung analysiert werden. Die bestimmten Peaklagen und die zugehörige Verzögerungen finden sich in Tabelle \ref{zeit}. 
+Nun muss noch die Koinzidenzzeit der beiden Detektoren festgelegt werden. Dafür muss zunächst die Zeitauflösung der Anordnung bestimmt werden, um keine Ereignisse zu verpassen. Dafür werden an den beiden TSCAs die Energiefenster so eingestellt, dass ausschließlich die den 511-$\gamma$-Quanten zugehörigen Peaks zu sehen sind und die so entstandenen Ausgangssignale dem Time-Analyzer zugeführt. Dieser wandelt die Zeitdifferenz zwischen den beiden Signalen in die Impulshöhe seines Ausgangssignals. Um die Zeitauflösung zu bestimmen, wird das Ausgabesignal des Time-Analyzers als Spektrum angezeigt. Dabei werden zwei Messungen durchgeführt, wobei bei der zweiten Messung eine Verzögerung von 96ns auf das Signal gelegt wird. Durch die Bestimmung der Kanallage der Peaks und die Bestimmung ihrer Halbwertsbreite kann so die Zeitauflösung der Koinzidenzmessung analysiert werden. Die aus den Abbildungen \ref{mitDelay} und \ref{ohneDelay} bestimmten Peaklagen und die zugehörige Verzögerungen finden sich in Tabelle \ref{zeit}. 
 
 \begin{table}[h]
 	\caption{Messparameter der Detektoren}
@@ -250,6 +248,20 @@ Nun muss noch die Koinzidenzzeit der beiden Detektoren festgelegt werden. Dafür
 	\end{tabular}
 \label{zeit}
 \end{table}
+
+\begin{figure}[htbp] 
+	\begin{minipage}[t]{0.45\linewidth} 
+     \includegraphics[width=1.2\textwidth]{Zeitliche_Signalstreuung_Natrium-22_mit_Delay_(96ns).pdf}
+  \caption{Zeitliche Signalstreuung mit Delay}
+  \label{mitDelay}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\linewidth}  
+     \includegraphics[width=1.2\textwidth]{Zeitliche_Signalstreuung_Natrium-22_ohne_Delay.pdf}
+  \caption{Zeitliche Signalstreuung ohne Delay}
+  \label{ohneDelay}
+\end{minipage}
+\end{figure}
 
 Um die Winkelverteilung zu vermessen wird die Position des beweglichen Detektors in kleinen Schritten verändert und die entsprechende Koinzidenzrate aufgenommen. Aus den beiden Peak-Positionen und der gemessenen Halbwertsbreite von 273 Kanälen kann mit folgender Gleichung die Zeitauflösung bestimmt werden:
 \begin{align}

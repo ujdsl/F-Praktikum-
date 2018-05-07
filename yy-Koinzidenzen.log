@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.30)  7 MAY 2018 17:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.30)  8 MAY 2018 00:00
 entering extended mode
 **./yy-Koinzidenzen.tex
 (yy-Koinzidenzen.tex
@@ -870,64 +870,95 @@ File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
 )))
 \openout2 = `Schaltbild.aux'.
 
- (Schaltbild.tex) [7] [8
-
-
- <./PMT.png>]
-Overfull \hbox (70.3464pt too wide) in paragraph at lines 220--227
-[][]
+ (Schaltbild.tex)
+Overfull \hbox (25.09251pt too wide) in paragraph at lines 58--197
+[][] 
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Overfull \hbox (2.73045pt too wide) in paragraph at lines 202--203
+[]\T1/cmr/m/n/10.95 Die bei-den De-tek-to-ren sind ge-mäÿ Ab-bil-dung 5[] mit e
+i-ner kom-ple-xen Analyse-Elektronik
+ []
 
-<Spektrum_von_Natrium-22_(fixierter_Detektor).pdf, id=48, 462.52798pt x 346.896
+[7] [8
+
+
+ <./PMT.png>] [9
+
+
+]
+Overfull \hbox (70.3464pt too wide) in paragraph at lines 218--225
+[][]
+ []
+
+<Spektrum_von_Natrium-22_(fixierter_Detektor).pdf, id=51, 462.52798pt x 346.896
 01pt>
 File: Spektrum_von_Natrium-22_(fixierter_Detektor).pdf Graphic file (type pdf)
 <use Spektrum_von_Natrium-22_(fixierter_Detektor).pdf>
 Package pdftex.def Info: Spektrum_von_Natrium-22_(fixierter_Detektor).pdf  used
- on input line 230.
+ on input line 228.
 (pdftex.def)             Requested size: 292.7776pt x 219.59369pt.
-<Spektrum_von_Natrium-22_(beweglicher_Detektor).pdf, id=49, 462.52798pt x 346.8
+<Spektrum_von_Natrium-22_(beweglicher_Detektor).pdf, id=52, 462.52798pt x 346.8
 9601pt>
 File: Spektrum_von_Natrium-22_(beweglicher_Detektor).pdf Graphic file (type pdf
 )
 <use Spektrum_von_Natrium-22_(beweglicher_Detektor).pdf>
 Package pdftex.def Info: Spektrum_von_Natrium-22_(beweglicher_Detektor).pdf  us
-ed on input line 236.
+ed on input line 234.
 (pdftex.def)             Requested size: 292.7776pt x 219.59369pt.
-[9
+[10 <./Spektrum_von_Natrium-22_(fixierter_Detektor).pdf>]
+<Zeitliche_Signalstreuung_Natrium-22_mit_Delay_(96ns).pdf, id=100, 462.52798pt 
+x 346.89601pt>
+File: Zeitliche_Signalstreuung_Natrium-22_mit_Delay_(96ns).pdf Graphic file (ty
+pe pdf)
+<use Zeitliche_Signalstreuung_Natrium-22_mit_Delay_(96ns).pdf>
+Package pdftex.def Info: Zeitliche_Signalstreuung_Natrium-22_mit_Delay_(96ns).p
+df  used on input line 254.
+(pdftex.def)             Requested size: 225.85588pt x 169.39297pt.
 
+Overfull \hbox (37.64217pt too wide) in paragraph at lines 254--255
+[][] 
+ []
 
-] [10 <./Spektrum_von_Natrium-22_(fixierter_Detektor).pdf> <./Spektrum_von_Natr
-ium-22_(beweglicher_Detektor).pdf
+<Zeitliche_Signalstreuung_Natrium-22_ohne_Delay.pdf, id=101, 462.52798pt x 346.
+89601pt>
+File: Zeitliche_Signalstreuung_Natrium-22_ohne_Delay.pdf Graphic file (type pdf
+)
+<use Zeitliche_Signalstreuung_Natrium-22_ohne_Delay.pdf>
+Package pdftex.def Info: Zeitliche_Signalstreuung_Natrium-22_ohne_Delay.pdf  us
+ed on input line 260.
+(pdftex.def)             Requested size: 225.85588pt x 169.39297pt.
 
-pdfTeX warning: pdflatex (file ./Spektrum_von_Natrium-22_(beweglicher_Detektor)
-.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [11]
-<Winkelkorrelation_der_Elektron-Positron-Annihilation.pdf, id=141, 433.62pt x 2
+Overfull \hbox (37.64217pt too wide) in paragraph at lines 260--261
+[][] 
+ []
+
+[11 <./Spektrum_von_Natrium-22_(beweglicher_Detektor).pdf>]
+<Winkelkorrelation_der_Elektron-Positron-Annihilation.pdf, id=151, 433.62pt x 2
 89.08pt>
 File: Winkelkorrelation_der_Elektron-Positron-Annihilation.pdf Graphic file (ty
 pe pdf)
 <use Winkelkorrelation_der_Elektron-Positron-Annihilation.pdf>
 Package pdftex.def Info: Winkelkorrelation_der_Elektron-Positron-Annihilation.p
-df  used on input line 273.
+df  used on input line 285.
 (pdftex.def)             Requested size: 292.7776pt x 195.19556pt.
+ [12 <./Zeitliche_Signalstreuung_Natrium-22_mit_Delay_(96ns).pdf> <./Zeitliche_
+Signalstreuung_Natrium-22_ohne_Delay.pdf
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[12 <./Winkelkorrelation_der_Elektron-Positron-Annihilation.pdf>]
+pdfTeX warning: pdflatex (file ./Zeitliche_Signalstreuung_Natrium-22_ohne_Delay
+.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [13 <./Winkelkorrelation_der_Elektron-Positron-Annihilation.pdf>]
 No file yy-Koinzidenzen.bbl.
 
 Package natbib Warning: There were undefined citations.
 
-[13] (yy-Koinzidenzen.aux (Aufbau.aux) (Schaltbild.aux)) ) 
+[14] (yy-Koinzidenzen.aux (Aufbau.aux) (Schaltbild.aux)) ) 
 Here is how much of TeX's memory you used:
- 20121 strings out of 493305
- 413896 string characters out of 3129802
- 556970 words of memory out of 3000000
- 23283 multiletter control sequences out of 15000+200000
+ 20151 strings out of 493305
+ 414803 string characters out of 3129802
+ 556990 words of memory out of 3000000
+ 23311 multiletter control sequences out of 15000+200000
  18617 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,10n,69p,9096b,1938s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -949,9 +980,9 @@ pe1/public/amsfonts/cm/cmr10.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX
 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/flori/AppData/Local/Progr
 ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/flori/AppDat
 a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on yy-Koinzidenzen.pdf (13 pages, 375571 bytes).
+Output written on yy-Koinzidenzen.pdf (14 pages, 421977 bytes).
 PDF statistics:
- 475 PDF objects out of 1000 (max. 8388607)
+ 580 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
