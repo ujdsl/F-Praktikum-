@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.30)  8 MAY 2018 00:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.30)  8 MAY 2018 01:24
 entering extended mode
 **./yy-Koinzidenzen.tex
 (yy-Koinzidenzen.tex
@@ -935,54 +935,68 @@ Overfull \hbox (37.64217pt too wide) in paragraph at lines 260--261
  []
 
 [11 <./Spektrum_von_Natrium-22_(beweglicher_Detektor).pdf>]
-<Winkelkorrelation_der_Elektron-Positron-Annihilation.pdf, id=151, 433.62pt x 2
-89.08pt>
+<Winkelkorrelation_der_Elektron-Positron-Annihilation.pdf, id=151, 462.52798pt 
+x 346.89601pt>
 File: Winkelkorrelation_der_Elektron-Positron-Annihilation.pdf Graphic file (ty
 pe pdf)
 <use Winkelkorrelation_der_Elektron-Positron-Annihilation.pdf>
 Package pdftex.def Info: Winkelkorrelation_der_Elektron-Positron-Annihilation.p
 df  used on input line 285.
-(pdftex.def)             Requested size: 292.7776pt x 195.19556pt.
+(pdftex.def)             Requested size: 292.7776pt x 219.59369pt.
  [12 <./Zeitliche_Signalstreuung_Natrium-22_mit_Delay_(96ns).pdf> <./Zeitliche_
 Signalstreuung_Natrium-22_ohne_Delay.pdf
 
 pdfTeX warning: pdflatex (file ./Zeitliche_Signalstreuung_Natrium-22_ohne_Delay
 .pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >] [13 <./Winkelkorrelation_der_Elektron-Positron-Annihilation.pdf>]
+<Winkelkorrelation_Gamma-Quanten_der_Nickel-60-Kernreaktion.pdf, id=271, 462.52
+798pt x 346.89601pt>
+File: Winkelkorrelation_Gamma-Quanten_der_Nickel-60-Kernreaktion.pdf Graphic fi
+le (type pdf)
+<use Winkelkorrelation_Gamma-Quanten_der_Nickel-60-Kernreaktion.pdf>
+Package pdftex.def Info: Winkelkorrelation_Gamma-Quanten_der_Nickel-60-Kernreak
+tion.pdf  used on input line 338.
+(pdftex.def)             Requested size: 292.7776pt x 219.59369pt.
+
 No file yy-Koinzidenzen.bbl.
 
 Package natbib Warning: There were undefined citations.
 
-[14] (yy-Koinzidenzen.aux (Aufbau.aux) (Schaltbild.aux)) ) 
+[14] [15 <./Winkelkorrelation_Gamma-Quanten_der_Nickel-60-Kernreaktion.pdf>]
+(yy-Koinzidenzen.aux (Aufbau.aux) (Schaltbild.aux))
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 20151 strings out of 493305
- 414803 string characters out of 3129802
- 556990 words of memory out of 3000000
- 23311 multiletter control sequences out of 15000+200000
+ 20157 strings out of 493305
+ 415164 string characters out of 3129802
+ 557004 words of memory out of 3000000
+ 23316 multiletter control sequences out of 15000+200000
  18617 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,10n,69p,9096b,1938s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\flori\AppD
-ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\
-flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1095.pk> 
-<C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecs
-x1440.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\
-dpi600\ecrm1095.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
-nappen\ec\dpi600\ecrm1440.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk
-\ljfour\jknappen\ec\dpi600\ecsx1200.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.
-9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx2074.pk><C:/Users/flori/AppData/Local/
-Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/flori/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/
-Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-mi12.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmmi8.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmr10.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/flori/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/flori/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on yy-Koinzidenzen.pdf (14 pages, 421977 bytes).
+ <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
+ecbx1095.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
+ec\dpi600\ecsx1095.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
+\jknappen\ec\dpi600\ecsx1440.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts
+\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\flori\AppData\Local\MiKTeX
+\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\flori\AppData\Lo
+cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1200.pk> <C:\Users\flori\
+AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx2074.pk><C:/Use
+rs/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex1
+0.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmmi10.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmmi12.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/flori/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/flori/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/fl
+ori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmsy8.pfb>
+Output written on yy-Koinzidenzen.pdf (15 pages, 439929 bytes).
 PDF statistics:
- 580 PDF objects out of 1000 (max. 8388607)
+ 629 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -307,10 +307,40 @@ In einer weiteren Messung wird das Energiefenster des beweglichen Detektors auf 
 
 \subsection{Durchführung}
 
-Wie schon im Versuchsteil 1 wird nun die Winkelverteilung zwischen den $\gamma$-Quanten des $^{60}$Co-Zerfalls gemessen. Dafür bleibt der prinzipielle Aufbau des Experiments wie in Versuchsteil 1 unverändert. Wiederum wird der Winkelbereich zwischen 0$^\circ$ und 90$^\circ$ mit 6 Messpunkten ausgemessen und die Koinzidenzzählrate bestimmt. Anschließend werden die gemessenen Winkelverteilungen einer im Kapitel 2 beschriebenen Zerfallskaskade zugeordnet und über die Einzelzählrate die Aktivität der radioaktiven Quelle bestimmt. 
+Wie schon im Versuchsteil 1 wird nun die Winkelverteilung zwischen den $\gamma$-Quanten des $^{60}$Co-Zerfalls gemessen. Dafür bleibt der prinzipielle Aufbau des Experiments wie in Versuchsteil 1 unverändert. Wiederum wird der Winkelbereich zwischen 0$^\circ$ und 90$^\circ$ mit 6 Messpunkten ausgemessen und die Koinzidenzzählrate sowie die Einzelzählraten bestimmt. Anschließend werden die gemessenen Winkelverteilungen einer im Kapitel 2 beschriebenen Zerfallskaskade zugeordnet und über die Einzelzählraten die Aktivität der radioaktiven Quelle bestimmt. 
 
 \subsection{Auswertung}
+Die gemessenen Zählraten abhängig des Drehwinkels des beweglichen Detektors finden sich in Tabelle \ref{Quelle}. Die Messzeit betrug dabei bei jeder Messung 700 Sekunden. Die Winkelverteilungsgröße W($\vartheta$) lässt sich dabei aus der Koinzidenzzählrate über die erwartete Winkelverteilung der zugrunde liegenden Kaskade berechnen. So entspricht W($\vartheta$) bei einem Winkel von 55$^\circ$ und einer angenommen 4-2-0-Kaskade exakt 1. Somit lassen sich die anderen gemessenen Zählungen auf diesen Wert normieren und W($\vartheta$) berechnen. Der Zusammenhang mit der Quellstärke Q ist dann folgendermaßen gegeben:
 
+\begin{align}
+\frac{Z_{12}}{Z_1Z_2}=\frac{1}{2Q}W(\vartheta)
+\end{align}
+
+\begin{table}[h]
+	\caption{Messungen zur Winkelkorrelation von $^{60}$Co}
+	\begin{tabular}{|c|c|c|c|c|c|}
+	\hline
+	 Winkel & Koinzidenzereignisse & Zähler 1 & Zähler 2 & W($\vartheta$) & Q\\ \hline
+	 10$^\circ$ & 1150 & 275023 & 290139 & 1,028 & 50935\\ \hline
+	 30$^\circ$ & 1190 & 277652 & 291403 & 1,063 & 51646\\ \hline
+	 45$^\circ$ & 1124 & 286403 & 298235 & 1,004 & 54522\\ \hline
+	 55$^\circ$ & 1119 & 280455 & 293102 & 1 & 52471\\ \hline
+	 75$^\circ$ & 1039 & 281196 & 296322 & 0,929 & 53188\\ \hline
+	 90$^\circ$ & 1102 & 284686 & 293432 & 0,985 & 53323\\ \hline
+	\end{tabular}
+\label{Quelle}
+\end{table}
+
+Die Winkelkorrelation der gemessenen Koinzidenzereignisse ist zusammen mit der Winkelverteilung für die 4-2-0-Kaskade in \ref{Co60} dargestellt. Wie zu erkennen, passen die beiden Verteilungen recht gut zueinander, sodass unsere Annahme, die Winkelverteilung einer 4-2-0-Kaskade vorliegen zu haben, bestätigt wurde. 
+
+
+\begin{figure}[htbp]  
+     \includegraphics[width=0.7\textwidth]{Winkelkorrelation_Gamma-Quanten_der_Nickel-60-Kernreaktion.pdf}
+  \caption{Winkelkorrelation $^{60}$Co-Quanten mit 4-2-0-Kaskade}
+  \label{Co60}
+\end{figure}
+
+\paragraph{Bestimmung der Aktivität}
 
 
 
