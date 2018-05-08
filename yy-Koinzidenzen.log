@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.30)  8 MAY 2018 01:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.30)  8 MAY 2018 02:18
 entering extended mode
 **./yy-Koinzidenzen.tex
 (yy-Koinzidenzen.tex
@@ -981,9 +981,16 @@ Package pdftex.def Info: Winkelkorrelation_der_Elektron-Positron-Annihilation.p
 df  used on input line 312.
 (pdftex.def)             Requested size: 292.7776pt x 219.59369pt.
  [13] [14 <./Winkelkorrelation_der_Elektron-Positron-Annihilation.pdf>]
+
+LaTeX Warning: Reference `Quelle' on page 15 undefined on input line 340.
+
+
 Overfull \hbox (62.09366pt too wide) in paragraph at lines 348--359
 [][]
  []
+
+
+LaTeX Warning: Reference `Co60' on page 15 undefined on input line 369.
 
 <Winkelkorrelation_Gamma-Quanten_der_Nickel-60-Kernreaktion.pdf, id=281, 462.52
 798pt x 346.89601pt>
@@ -993,41 +1000,83 @@ le (type pdf)
 Package pdftex.def Info: Winkelkorrelation_Gamma-Quanten_der_Nickel-60-Kernreak
 tion.pdf  used on input line 373.
 (pdftex.def)             Requested size: 292.7776pt x 219.59369pt.
+
+
+pdfTeX warning: pdflatex (file ./Prot1.pdf): PDF inclusion: found PDF version <
+1.7>, but at most version <1.5> allowed
+<Prot1.pdf, id=282, 597.55246pt x 845.07718pt>
+File: Prot1.pdf Graphic file (type pdf)
+<use Prot1.pdf>
+Package pdftex.def Info: Prot1.pdf  used on input line 386.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+Overfull \hbox (179.29544pt too wide) in paragraph at lines 386--387
+[][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 249.27486pt on input line 387.
+
+
+
+pdfTeX warning: pdflatex (file ./Prot2.pdf): PDF inclusion: found PDF version <
+1.7>, but at most version <1.5> allowed
+<Prot2.pdf, id=283, 597.55246pt x 845.07718pt>
+File: Prot2.pdf Graphic file (type pdf)
+<use Prot2.pdf>
+Package pdftex.def Info: Prot2.pdf  used on input line 390.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+Overfull \hbox (179.29544pt too wide) in paragraph at lines 390--391
+[][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 249.27486pt on input line 391.
+
 No file yy-Koinzidenzen.bbl.
 
 Package natbib Warning: There were undefined citations.
 
 [15] [16 <./Winkelkorrelation_Gamma-Quanten_der_Nickel-60-Kernreaktion.pdf>]
-(yy-Koinzidenzen.aux (Aufbau.aux) (Schaltbild.aux)) ) 
+[17 <./Prot1.pdf>] [18 <./Prot2.pdf>] (yy-Koinzidenzen.aux (Aufbau.aux)
+(Schaltbild.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 20168 strings out of 493305
- 415365 string characters out of 3129802
- 555808 words of memory out of 3000000
- 23326 multiletter control sequences out of 15000+200000
+ 20178 strings out of 493305
+ 415541 string characters out of 3129802
+ 555789 words of memory out of 3000000
+ 23334 multiletter control sequences out of 15000+200000
  18617 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,10n,69p,9096b,1938s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\flori\AppData\L
-ocal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\flori
-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1095.pk> <C:\U
-sers\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1440
-.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
-0\ecrm1095.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
-n\ec\dpi600\ecrm1440.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
-ur\jknappen\ec\dpi600\ecsx1200.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fon
-ts\pk\ljfour\jknappen\ec\dpi600\ecsx2074.pk><C:/Users/flori/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/flori/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users
-/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.
-pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmmi8.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmr10.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/flori/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/flori/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on yy-Koinzidenzen.pdf (16 pages, 835005 bytes).
+ <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
+ecbx1095.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
+ec\dpi600\ecsx1095.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
+\jknappen\ec\dpi600\ecsx1440.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts
+\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\flori\AppData\Local\MiKTeX
+\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\flori\AppData\Lo
+cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1200.pk> <C:\Users\flori\
+AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx2074.pk><C:/Use
+rs/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex1
+0.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmmi10.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmmi12.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/flori/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/flori/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/fl
+ori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmsy8.pfb>
+Output written on yy-Koinzidenzen.pdf (18 pages, 1551796 bytes).
 PDF statistics:
- 637 PDF objects out of 1000 (max. 8388607)
+ 660 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 63 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
