@@ -1,1 +1,68 @@
 \section{Theoretische Grundlagen}
+
+\subsection{Neutronenstrahlung}
+Neutronen tragen keine Ladung und auch ihr magnetisches Moment ist so gering, dass es in diesem Versuch vernachlässigt werden kann, sodass keine elektromagnetische Wechselwirkung zwischen Neutronen und Elektronen vorhanden ist. Neutronen geben ihre Energie daher ausschließlich über die starke Wechselwirkung an die Kerne ab. Dabei kann der Stoßprozess mit Hilfe  klassischer Mechanik beschrieben werden. Der Wirkungsquerschnitt hängt  dabei aber von der Masse des Stoßpartners und der Energie des Neutrons ab \cite{anleitung}.
+Um nun die Neutronen zu detektieren werden große Detektoren benötigt, da Wirkungsquerschnitt im Allgemeinen sehr klein ist. Dort wird dann ausgenutzt, dass die Wasserstoffkerne, an denen die Neutronen streuen, im Szintillator registriert werden können. So kann das Proton mit den Elektronen wechselwirken, die dann ein Signal erzeugen, dass proportianal zur Elektronenenergie ist. Allerdings ist die vom Neutron an das Proton abgegebene Energie abhängig vom Rückstoßwinkel $\Phi$, des Stoßprozesses:
+\begin{equation}
+ E_R = \frac{4A}{(A+1)^2}E_n\cos^2\Phi
+\end{equation}
+Dabei ist $A$ die Massenzahl des Stoßpartners und $E_n$ die Neutronenenrgie. Für ein Proton ($A=1$) ist die maximale Energie $E_n$ im Falle eines zentralen Stoßes und $0$ im Falle eines Streifschusses. Die Energieverteilung ist also kontinuierlich, die maximal gemessene Energie entspricht aber der Energie der Neutronen.
+
+\subsection{Wechselwirkung von $\gamma$-Strahlung mit Materie}
+Im Wesentlichen wechselwirken $\gamma$-Quanten mit Materie auf fünf unterschiedliche Arten: elastische Streuung, Compton-Streuung, Photoeffekt, Mößbauer-Effekt und Paarbildung. In diesem Versuch sind aber nur die Compton-Streuung und der Phtoeffekt von Relevanz, weswegen wir uns hier im Protokoll darauf beschränken.
+\subsubsection{Compton-Streuung}
+Trifft ein Photon auf ein schwach gebundenes Elektron eines Atoms, so wird durch einen elastischen Stoß ein Teil seines Impulses und seiner Energie auf dieses Elektron übertragen. Das Elektron verlässt das Atom, während das gestreute Photon an Energie verliert. Der Energieverlust des gestreuten Photons führt zu einer Frequenzänderung. Je nach Streuwinkel $\theta$ verändert sich dieser Energieübertrag an das Elektron.
+\begin{equation}
+ E=\frac{\alpha(1-\cos \theta)E_\gamma}{1+\alpha(1-\cos\theta)},
+\end{equation}
+dabei ist $\alpha=\frac{E_\gamma}{m_e\cdot c^2}$ und $E_\gamma$ die Energie des Gammaquants. Das Maximum wird bei einem Winkel von $180\circ $ erreicht, wodurch sich die Formel zu
+\begin{equation}
+ E_{max}=\frac{2\alpha E_\gamma}{1+2\alpha}
+\end{equation}
+reduziert. An diesen Stellen treten im Spektrum die Comptonkanten auf, da von Gammaquanten mit einer bestimmten Energie $E_\gamma$ keine Elektronen induziert werden, die eine höhere Energie haben.
+
+
+Der Wirkungsquerschnitt der Compton-Streuung an einem bestimmten Material steigt dabei mit zunehmender Kernladungszahl und nimmt mit steigender Photonenenergie ab. 
+\subsubsection{Photoeffekt}
+Beim Photoeffekt wird ein Photon von einem Hüllenelektron absorbiert. Es kommt zum vollständigen Energieübertrag an das Elektron, wodurch es aus seiner Bindung mit dem Atomkern gelöst wird und das Atom verlässt. Damit dieser Vorgang stattfinden kann, muss die Energie $E_\gamma$ des einfallenden Photons größer sein als die Bindungsenergie $E_b$ des Elektrons. Je nachdem, in welcher Elektronenschale sich das Elektron befindet, variiert diese Bindungsenergie. Wegen der Impulserhaltung werden bevorzugt Elektronen aus den beiden innersten Schalen herausgelöst. Die kinetische Energie des emitierten Eletrkons folgt dabei der Beziehung
+\begin{equation}
+E_{kin}=E_\gamma - E_b
+\end{equation}
+Da nun in einer der energetisch niedrigeren Schalen ein Elektron fehlt, tritt an dessen Stelle ein Elektron aus einem energetisch höheren Niveau. Die dabei freiwerdende Energie wird in Form eines charakteristischen Photons abgestrahlt.
+
+\subsection{$^{241}$Am-$^9$Be-Neutronenquelle}
+Americium-241 zerfällt unter Aussendung eines Alpha-Teilchens zu Neptunium-237. Das Alpha-Teilchen hat dabei eine Energie von ungefähr $5,5MeV$ \cite{americium}, wodurch es die Kernreaktion
+\begin{equation}
+ ^4\alpha + \,^9Be \rightarrow\, ^{12}C +\, ^1n
+\end{equation}
+induzieren kann.
+
+\begin{figure}[htbp]  
+     \includegraphics[width=0.7\textwidth]{beryllium.png}
+  \caption{Energieschema für den Alpha-Teilcheneinfang von $^9$Be \cite{anleitung}}
+  \label{beryllium}
+\end{figure}
+
+Wie in Abbildung \ref{beryllium} zu erkennen ist, zerfällt der
+angeregte Zustand von $^13$C zu jeweils $50\%$ über zwei unterschiedliche Wege. Die angeregten Zustände zerfallen aber direkt bei einer sehr kurzen Lebensdauer zum $^{12}$C-Grundzustand, wobei bei der Kaskade auch ein $\gamma$-Quant ausgesendet wird.
+
+\subsection{$^{22}$Na-Gammastrahlenquelle}
+Diese Gammastrahlenquelle wird zur Energiekalibrierung verwendet, da $^{22}$Na über einen energetisch klar definierten kurzlebigen Zwischenzustand zerfällt (siehe Abbildung \ref{na22}).
+
+\begin{figure}[htbp]  
+     \includegraphics[width=0.6\textwidth]{Na22.png}
+  \caption{Energieschema für den Zerfall von $^{22}$Na zu $^{22}$Ne \cite{na22}}
+  \label{na22}
+\end{figure}
+
+Zunächst wird ein Positron ausgesendet, welches ein Ruhemasse von $511keV$ hat. Der angeregte Zustand $^{22}$Ne zerfällt dann unter Aussendung eines Gammaquants mit der Energie $1274keV$ zum Grundzustand von $^{22}$Ne. Zusätzlich zu dem klar definierten Gammaquant entstehen bei der Annihilation des Positrons mit einem Elektron des umgebenden Materials zwei weitere Gammaquanten, die beide die Energie $511keV$ haben.
+
+\subsection{Organische Szintillatoren}
+
+\subsection{Pulsformdiskriminierung}
+Um in der Zählrate des organischen Szintillators zwischen den Gammaquanten und Neutronen zu unterscheiden, macht man sich zu Nutze, dass die Pulsform für Neutronen und Gammaquanten unterschiedlich ist. Dies hängt mit der spezifischen Energieabgabe der einzelnen Teilchen im Szintillatormaterial zusammen. 
+
+Mit Hilfe einer geeigneten elektrischen Schaltung wird so eine Pulsformdiskriminierung (PSD) zwischen Neutronen und Gammaquanten erreicht. Im Prinzip funktiert dies so, dass das aufintegrierte Signal mehrfach invertiert und verzögert aufsummiert wird. Durch die unterschiedlichen Antiegszeiten der Signale wird erreicht, dass das resultierende Signal unterschiedliche Nulldurchgänge hat. Aus dieser bestimmten Zeit wird dann das für Neutronen und Gammaquanten charakteristische PSD-Signal gewonnen. Trägt man dieses Signal über der Energie der Teilchen auf, gelingt es gut, die für die Messung gewünschten Teilchen auszuwählen.
+
+
+
