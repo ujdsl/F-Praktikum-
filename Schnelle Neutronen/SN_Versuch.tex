@@ -23,21 +23,35 @@ R=r_0 \cdot A^{1/3}
 
 Da das Neutron weiterhin nur bis auf eine reduzierte De-Broglie-Wellenlänge lokalisiert werden kann, ergibt sich die reduzierte De-Broglie-Wellenlänge $\lambda_{dB}$ als Offset der gerade genannten Beziehung.
 
-Für die Messung werden die verschiedenen Absorber in die in Abschnitt 3 bestimmte Position gebracht und die entsprechenden Spektren mit einer Messdauer von 1920s vermessen. Weiterhin werden nur Neutronen mit einer Energie von über 7MeV als "richtige" Neutronen angenommen, da der oben angenommene Wirkungsquerschnitt nur in diesem Energiebereich gültig ist. Dafür muss bei der Bestimmung der Zählrate der richtige Bereich des 2D-Histogramms ausgewählt werden, wobei hier nur 128 Kanäle vorhanden sind. Über die oben schon dargestellte Energierelation zwischen Neutronen und Elektronen, kann eine minimale Elektron-Energie von 3MeV identifiziert werden. Im schon kalibrierten Energie-Diagramm mit 2014 Kanälen entspricht dies allen Ereignissen ab Kanal 562. Umgerechnet auf 128 Kanäle müssen wir also alle Neutronen-Ereignisse ab Kanal 71 zählen, um auf die korrekte Zählrate zu kommen. Die bei den verschiedenen Absorbern aufgenommenen Zählraten gemeinsam mit den Atommassen und Dichten der Absorbermaterialien finden sich in \ref{werte}. 
+Für die Messung werden die verschiedenen Absorber in die in Abschnitt 3 bestimmte Position gebracht und die entsprechenden Spektren mit einer Messdauer von 1920s vermessen. Weiterhin werden nur Neutronen mit einer Energie von über 7MeV als "richtige" Neutronen angenommen, da der oben angenommene Wirkungsquerschnitt nur in diesem Energiebereich gültig ist. Dafür muss bei der Bestimmung der Zählrate der richtige Bereich des 2D-Histogramms ausgewählt werden, wobei hier nur 128 Kanäle vorhanden sind. Über die oben schon dargestellte Energierelation zwischen Neutronen und Elektronen, kann eine minimale Elektron-Energie von 3MeV identifiziert werden. Im schon kalibrierten Energie-Diagramm mit 2014 Kanälen entspricht dies allen Ereignissen ab Kanal 562. Umgerechnet auf 128 Kanäle müssen wir also alle Neutronen-Ereignisse ab Kanal 71 zählen, um auf die korrekte Zählrate zu kommen. Die bei den verschiedenen Absorbern aufgenommenen Zählraten gemeinsam mit den Atommassen und Dichten der Absorbermaterialien finden sich in den Tabellen \ref{werte} und \ref{werte2}. 
 
 \begin{table}[h]
 	\caption{Neutronen-Zählraten mit verschiedenen Absorbermaterialien}
-	\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+	\begin{tabular}{|c|c|c|c|c|c|}
 	\hline
-	 Absorber & Zählrate & Atommasse in u & Dichte in g/$cm^3$ & Teilchen / $cm^3$ & $\mu$ & $\sigma$ & R & $A^\frac{1}{3}$ \\ \hline
-	  ohne & 23713 &  &  &  &  & &  &   \\ \hline
-	   Cadmium & 10785 & 112,4 & 8,65 & $4,63 \cdot 10^{22}$ & 0,157 & $3,4\cdot 10^{-24}$ & $7,36 \cdot 10^{-13}$ & 4,83\\ \hline
-	    Aluminium & 13459 & 27 & 2,69 & $5,99 \cdot 10^{22}$ & 0,113 & $3,4\cdot 10^{-24}$ & $5,48 \cdot 10^{-13}$  & 3 \\ \hline
-	     Blei & 10714 & 207 & 11,3 & $3,28 \cdot 10^{22}$ & 0,159 & $3,4\cdot 10^{-24}$ & $8,77 \cdot 10^{-13}$  & 5,92 \\ \hline
-	      Eisen & 7434 & 55,8 & 7,87 & $8,49 \cdot 10^{22}$ & 0,232 & $3,4\cdot 10^{-24}$ & $6,59 \cdot 10^{-13}$  & 3,82 \\ \hline
-	       Kupfer & 6990 & 63,5 & 8,92 & $8,45 \cdot 10^{22}$ & 0,244 & $3,4\cdot 10^{-24}$ & $6,78 \cdot 10^{-13}$  & 3,99\\ \hline
+	 Absorber & Zählrate & $\mu$ & $\sigma$ & R & $A^\frac{1}{3}$ \\ \hline
+	  ohne & 23713 &  &  &  & &  &   \\ \hline
+	   Cadmium & 10785  & 0,157 & $3,4\cdot 10^{-24}$ & $7,36 \cdot 10^{-13}$ & 4,83\\ \hline
+	    Aluminium & 13459 & 0,113 & $3,4\cdot 10^{-24}$ & $5,48 \cdot 10^{-13}$  & 3 \\ \hline
+	     Blei & 10714  & 0,159 & $3,4\cdot 10^{-24}$ & $8,77 \cdot 10^{-13}$  & 5,92 \\ \hline
+	      Eisen & 7434  & 0,232 & $3,4\cdot 10^{-24}$ & $6,59 \cdot 10^{-13}$  & 3,82 \\ \hline
+	       Kupfer & 6990 & 0,244 & $3,4\cdot 10^{-24}$ & $6,78 \cdot 10^{-13}$  & 3,99\\ \hline
 	\end{tabular}
 \label{werte}
+\end{table}
+
+\begin{table}[h]
+	\caption{Daten Absorbermaterialien}
+	\begin{tabular}{|c|c|c|}
+	\hline
+	 Absorber & Atommasse in u & Dichte in g/$cm^3$ & Teilchen / $cm^3$ \\ \hline
+	   Cadmium & 112,4  & 8,65 & $4,63 \cdot 10^{22}$ \\ \hline
+	    Aluminium & 27 & 2,69 & $5,99 \cdot 10^{22}$ \\ \hline
+	     Blei & 207  & 11,3 & $3,28 \cdot 10^{22}$  \\ \hline
+	      Eisen & 55,8  & 7,87 & $8,49 \cdot 10^{22}$ \\ \hline
+	       Kupfer & 63,5 & 8,92 & $8,45 \cdot 10^{22}$ \\ \hline
+	\end{tabular}
+\label{werte2}
 \end{table}
 
 Die bestimmten Werte für R können gegenüber der dritten Wurzel der Massenzahl aufgetragen und aus der Steigung die Radiuskonstante $r_0$ und aus dem y-Achsenabschnitt die De-Broglie-Wellenlänge bestimmt werden. In Abbildung \ref{kernradien} findet sich dieser Plot. Als fehlerbehaftete Größen wurden die Dicke der Absorber und die Zählraten angenommen, wobei der Fehler der Absorberdicke auf $\Delta d = 1mm$ geschätzt wurde, während die Zählraten als normalverteilte Größen und damit mit einem Fehler von $\sqrt{Z}$ behaftet angenommen wurden. Der Fehler für R ergibt sich dann zu:

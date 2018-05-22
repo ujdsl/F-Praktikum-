@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.30)  22 MAY 2018 01:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.30)  22 MAY 2018 02:30
 entering extended mode
 **./Schnelle_Neutronen.tex
 (Schnelle_Neutronen.tex
@@ -790,10 +790,20 @@ Package pdftex.def Info: Na22.png  used on input line 53.
 
 Package natbib Warning: Citation `na22' on page 5 undefined on input line 54.
 
-[5 <./beryllium.png>]) (SN_Aufbau.tex
+<szintillator.png, id=36, 389.5353pt x 134.904pt>
+File: szintillator.png Graphic file (type png)
+<use szintillator.png>
+Package pdftex.def Info: szintillator.png  used on input line 62.
+(pdftex.def)             Requested size: 292.7776pt x 101.39389pt.
+
+Package natbib Warning: Citation `anleitung' on page 5 undefined on input line 
+63.
+
+[5 <./beryllium.png>] [6 <./Na22.png> <./szintillator.png>]) (SN_Aufbau.tex
 \openout2 = `Aufbau1.aux'.
 
- (Aufbau1.tex
+
+(Aufbau1.tex
 ("C:\Users\flori\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlaye
 r\tikz\libraries\tikzlibraryshapes.code.tex"
 File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
@@ -874,37 +884,39 @@ File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 flibraryarrows.code.tex"
 File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
 \arrowsize=\dimen170
-))) [6
-
-
- <./Na22.png>]
-\openout2 = `Aufbau2.aux'.
-
- (Aufbau2.tex))
-(SN_Kalibrierung.tex [7
+))) [7
 
 
 ]
-<E-N.png, id=50, 690.32906pt x 249.18094pt>
+\openout2 = `Aufbau2.aux'.
+
+ (Aufbau2.tex)) (SN_Kalibrierung.tex
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8
+
+
+]
+<E-N.png, id=55, 690.32906pt x 249.18094pt>
 File: E-N.png Graphic file (type png)
 <use E-N.png>
 Package pdftex.def Info: E-N.png  used on input line 53.
 (pdftex.def)             Requested size: 418.25555pt x 150.97354pt.
 
 
-Package natbib Warning: Citation `anleitung' on page 8 undefined on input line 
+Package natbib Warning: Citation `anleitung' on page 9 undefined on input line 
 54.
 
-[8]) (SN_Versuch.tex [9 <./E-N.png>]
-Overfull \hbox (158.49205pt too wide) in paragraph at lines 30--41
+[9]) (SN_Versuch.tex [10 <./E-N.png>]
+Overfull \hbox (69.5546pt too wide) in paragraph at lines 30--41
 [][]
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[10]
-<kernradien.pdf, id=60, 462.52798pt x 346.89601pt>
+<kernradien.pdf, id=62, 462.52798pt x 346.89601pt>
 File: kernradien.pdf Graphic file (type pdf)
 <use kernradien.pdf>
 Package pdftex.def Info: kernradien.pdf  used on input line 49.
@@ -914,7 +926,7 @@ Overfull \hbox (44.27129pt too wide) in paragraph at lines 49--50
 [][] 
  []
 
-) (SN_Fazit.tex) (Schnelle_Neutronen.bbl
+[11] [12 <./kernradien.pdf>]) (SN_Fazit.tex) (Schnelle_Neutronen.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 10.
 
@@ -922,48 +934,48 @@ Package natbib Warning: Empty `thebibliography' environment on input line 10.
 
 Package natbib Warning: There were undefined citations.
 
-[11] [12 <./kernradien.pdf>] (Schnelle_Neutronen.aux (Aufbau1.aux) (Aufbau2.aux
-)) ) 
+[13] [14] (Schnelle_Neutronen.aux (Aufbau1.aux) (Aufbau2.aux)) ) 
 Here is how much of TeX's memory you used:
- 20108 strings out of 493305
- 413092 string characters out of 3129802
- 550591 words of memory out of 3000000
- 23241 multiletter control sequences out of 15000+200000
+ 20114 strings out of 493305
+ 413205 string characters out of 3129802
+ 552630 words of memory out of 3000000
+ 23246 multiletter control sequences out of 15000+200000
  21572 words of font info for 67 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,10n,69p,9099b,1936s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
-0\ecrm0900.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
-n\ec\dpi600\ecbx1095.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
-ur\jknappen\ec\dpi600\ecsx1095.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fon
-ts\pk\ljfour\jknappen\ec\dpi600\ecsx1440.pk> <C:\Users\flori\AppData\Local\MiKT
-eX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\flori\AppData\
-Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\flor
-i\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1200.pk> <C:\
-Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx207
-4.pk><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmex10.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmmi10.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/flori/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/flori/AppData
-/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/f
-lori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb
-><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmmi8.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmmi9.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/flori/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/flori/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/flori/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users
-/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pf
-b><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmss10.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmss12.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/flori/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Schnelle_Neutronen.pdf (12 pages, 636335 bytes).
+ <C:\Users\flor
+i\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0900.pk> <C:\
+Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx109
+5.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi6
+00\ecsx1095.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknapp
+en\ec\dpi600\ecsx1440.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
+our\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fo
+nts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\flori\AppData\Local\MiK
+TeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1200.pk> <C:\Users\flori\AppData
+\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx2074.pk><C:/Users/flor
+i/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmmi10.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmmi12.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/flori/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/flori/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/flori/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Us
+ers/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
+9.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmr10.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmr5.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/flori/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/flori/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/flori/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/
+Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+ss12.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmsy8.pfb>
+Output written on Schnelle_Neutronen.pdf (14 pages, 894659 bytes).
 PDF statistics:
- 443 PDF objects out of 1000 (max. 8388607)
+ 454 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
 
