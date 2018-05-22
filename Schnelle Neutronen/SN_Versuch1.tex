@@ -1,3 +1,33 @@
-\section{Versuchsteil 1}
+\section{Versuchsteil 1: Energie Kalibrierung}
+
+
 \subsection{Durchführung}
+
+Um aus der am PC ausgegebenen Kanalzahl die entsprechende Neutronenenergie bestimmen zu können, muss zunächst eine Kalibrierung durchgeführt werden. Da die Kanallagen aus den in den Szintillatoren gemessenen Elektronenenergien stammen, muss zunächst ein Zusammenhang zwischen der Kanalnummer und der Elektronenenergie hergestellt werden:
+
+\begin{align}
+E_e=a+b\cdot K
+\end{align}
+
+Dafür wird das $\gamma$-Spektrum der $^{22}Na$-Quelle aufgenommen und die Lage der beiden Compton-Kanten bestimmt. Um später das korrekte Energiespektrum zu messen, muss hierbei auf die passende Einstellung der Elektronik geachtet werden, welche durch äußere Einflüsse, wie Wärme und Feuchtigkeit beeinflusst wird. Die beiden Compton-Kanten entsprechen $\gamma$-Quanten mit 511 bzw. 1275 keV, welche aus den Übergängen der Quelle stammen. Über die in der Theorie beschriebene Formel, kann die zugehörige Elektronenergie bestimmt werden:
+
+\begin{align}
+E_{e,1}=\frac{2\alpha \cdot E_{\gamma}}{1 + 2\alpha} = \frac{2\cdot \frac{511keV}{511keV}\cdot 511keV}{1+2\cdot \frac{511keV}{511keV}}=\frac{2\cdot 511keV}{3}\approx 340,7keV
+\end{align}
+\begin{align}
+E_{e,2}=\frac{2\alpha \cdot E_{\gamma}}{1 + 2\alpha} = \frac{2\cdot \frac{1275keV}{511keV}\cdot 1275keV}{1+2\cdot \frac{1275keV}{511keV}}=\approx 1062,2keV
+\end{align}
+
+Die aus dem Spektrum bestimmten Compton-Kanten befinden sich bei den Kanälen 68 bzw. 202. Aus den Werten und dem gerade beschriebenen Elektron-Photon Zusammenhang ergibt sich die Eichung zu:
+
+\begin{align}
+b= \frac{1062,2-340,7}{202,5-68} \approx 5,36 \frac{keV}{K}
+\end{align}
+\begin{align}
+a=340,7-b\cdot 68 \approx -24,1 keV
+\end{align}
+\begin{align}
+E_e=-24,1 keV +5,36 \frac{keV}{K} \cdot K
+\end{align}
+
 \subsection{Auswertung}

@@ -1,7 +1,19 @@
-\select@language {ngerman}
+\babel@toc {ngerman}{}
 \contentsline {section}{\numberline {1}Zielsetzung}{3}
-\contentsline {section}{\numberline {2}Theoretische Grundlagen}{4}
-\contentsline {section}{\numberline {3}Versuchsaufbau und Messger\IeC {\"a}te}{5}
-\contentsline {section}{\numberline {4}Versuchsteil 1}{6}
-\contentsline {section}{\numberline {5}Versuchsteil 2}{7}
-\contentsline {section}{\numberline {6}Zusammenfassung/Fazit}{8}
+\contentsline {section}{\numberline {2}Theoretische Grundlagen}{3}
+\contentsline {subsection}{\numberline {2.1}Neutronenstrahlung}{3}
+\contentsline {subsection}{\numberline {2.2}Wechselwirkung von $\gamma $-Strahlung mit Materie}{3}
+\contentsline {subsubsection}{\numberline {2.2.1}Compton-Streuung}{4}
+\contentsline {subsubsection}{\numberline {2.2.2}Photoeffekt}{4}
+\contentsline {subsection}{\numberline {2.3}$^{241}$Am-$^9$Be-Neutronenquelle}{4}
+\contentsline {subsection}{\numberline {2.4}$^{22}$Na-Gammastrahlenquelle}{5}
+\contentsline {subsection}{\numberline {2.5}Organische Szintillatoren}{5}
+\contentsline {subsection}{\numberline {2.6}Pulsformdiskriminierung}{5}
+\contentsline {section}{\numberline {3}Versuchsaufbau und Messger\IeC {\"a}te}{6}
+\contentsline {section}{\numberline {4}Kalibrierung}{7}
+\contentsline {subsection}{\numberline {4.1}Energie}{7}
+\contentsline {subsection}{\numberline {4.2}Time of Flight}{9}
+\contentsline {section}{\numberline {5}Durchf\IeC {\"u}hrung und Auswertung}{10}
+\contentsline {subsection}{\numberline {5.1}Kernradienbestimmung}{10}
+\contentsline {subsection}{\numberline {5.2}Time of Flight - Messung}{11}
+\contentsline {section}{\numberline {6}Zusammenfassung/Fazit}{11}
