@@ -27,12 +27,49 @@ angenommen und dies führt im Fall isotroper effektiver Massen zu den Zustandsdi
 
 
 \subsection{Dotierung von Halbleitern}
-- Dotierung (9-10)
-- Temperaturabhängigkeit der Ladungsträgerdichte (11-13)
+Die Ladungsträgerkonzentrationen sind in den meisten Halbleitern zu niedrig, um bei
+Raumtemperatur eine nennenswerte Leitfähigkeit zu liefern. Die Situation lässt sich
+ändern, indem man eine sehr kleine Menge elektrisch aktiver Störstellen (Fremdatome)
+in den Halbleiter einbringt. Diesen Prozess nennt man Dotierung. Die Fremdatome
+ändern die Leitfähigkeit, indem sie entweder Elektronen in das Leitungsband abgeben
+oder Elektronen aus dem Valenzband aufnehmen, also Löcher erzeugen. Dementsprechend
+nennt man sie auch Elektronendonator bzw. Elektronenakzeptor. Es gibt zwei Arten von Dotierungen in einem Halbleiter. n-Dotierung nennt man das
+Einbringen von Störstellenatomen (Donatoren), die freie Elektronen in das Leitungsband
+abgeben. Als p-Dotierung bezeichnet man das Einbringen von Störstellenatomen
+(Akzeptoren), die freie Löcher im Valenzband erzeugen.
+Bei der n-Dotierung werden dagegen fünfwertige Donatoratome wie P, As oder Sb in das
+Si-Gitter eingebracht, vergleiche hierzu Abbildung \ref{Dotierung}.
+
+Eine wichtige Kenngröße für Halbleiter ist die intrinsische Ladungsträgerdichte und die Ladungsträgerverteilung. Diese sind maßgeblich für die sogenannte Eigenleitung, daher die Leitfähigkeit der Halbleiter abhängig der Temperatur. Wie oben beschrieben, können Elektronen erst durch Energieanregung ins Leitungsband „springen“ und somit als Ladungsträger zur Verfügung stehen. Wenn man äußere Anregungen vernachlässigt, hängt dich intrinsische Ladungsträgerdichte also sehr stark von der Temperatur ab, da die Elektronen nur durch thermische Anregungen Energie erhalten können. Die intrinsische Ladungsträgerdichte bleibt daher bis zu einer gewissen Temperatur quasi null, da die thermischen Anregungen aufgrund der Temperatur nicht groß genug sind, um die Bandlücke zu überwinden.  In Abbildung \ref{Leitung} stellt die gestrichelte Kurve den Verlauf der intrinsischen Ladungsträgerdichte im Leitungsband dar. Im Falle von dotierten Halbleitern (durchgezogene Linie), tragen zunächst die durch die Fremdatome eingebrachten Ladungsträger zur konstanten Ladungsträgerdichte bei, bis die thermischen Anregungen hier auch zum Tragen kommen.
+
+\begin{figure}[htbp]  
+     \includegraphics[width=0.7\textwidth]{Dotierung.png}
+  \caption{n- und p-Dotierung im Si-Kristall \cite{Hofmann}}
+  \label{Dotierung}
+\end{figure}
+
+\begin{figure}[htbp]  
+     \includegraphics[width=0.7\textwidth]{Leitung.png}
+  \caption{Ladungsträgerdichte im Leitungsband abhängig der Temperatur \cite{Leitung}}
+  \label{Leitung}
+\end{figure}
 
 \subsection{Ladungstransport in Halbleitern}
-- Drude Modell (23)
-- Streuprozesse im Halbleiter und Beweglichkeit (14-16)
+
+Ein bekanntes Modell für den Ladungstransport in Halbleitern ist das Drude-Modell. Dieses betrachtet die Bewegungen von Elektronen durch ein Kristallgitter als Abfolge von Stößen mit den Kristallionen. Dabei werden die Stoßvorgänge durch eine mittlere Stoßzeit, in der sich das Elektron frei im Kristall bewegt, und einer sog. Driftgeschwindigkeit beschrieben. Die Driftgeschwindigkeit bezeichnet dabei die Geschwindigkeit des Elektrons, welche ausschließlich durch ein angelegtes elektrisches Feld erzeugt wird. Thermische Beiträge zur Elektron-Geschwindigkeit werden hier nicht berücksichtigt. Mit der bekannten elektrischen Kraft auf ein Elektron im elektrischen Feld ergibt sich folgende 
+Bewegungsgleichung:
+
+\begin{equation}
+\frac{m_e}{\tau}v_D = -eE
+\end{equation}
+
+mit der Driftgeschwindigkeit $v_D$ und der mittleren Stoßzeit $\tau$. Über diesen Zusammenhang zwischen Driftgeschwindigkeit und angelegtem elektrischen Feld kann man die sog. Beweglichkeit $\mu$ definieren:
+
+\begin{equation}
+\mu = \frac{v_D}{E}= \frac{e\tau}{m_e}
+\end{equation}
+
+Im allgemeinen beschreibt das Drude-Modell die Elektronen eines Halbleiters als Elektronengas, in dem alle Elektronen zur Leitung beitragen. 
 
 \subsection{Hall-Effekt}
 Der Hall Effekt tritt auf, wenn in einem Leiter oder einem Halbleiter senkrecht zu einem Magnetfeld $\vec B$ ein Strom fließt. Die Lorentzkraft
