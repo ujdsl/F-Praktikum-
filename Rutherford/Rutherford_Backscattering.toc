@@ -1,0 +1,10 @@
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Zielsetzung}{3}
+\contentsline {section}{\numberline {2}Theoretische Grundlagen}{3}
+\contentsline {subsection}{\numberline {2.1}Rutherford-Backscattering-Spectrometry}{3}
+\contentsline {subsection}{\numberline {2.2}Der kinematische Faktor}{4}
+\contentsline {subsection}{\numberline {2.3}Der Van-de-Graaff-Beschleuniger}{5}
+\contentsline {section}{\numberline {3}Versuchsaufbau und Messger\IeC {\"a}te}{6}
+\contentsline {section}{\numberline {4}Kalibrierung}{6}
+\contentsline {section}{\numberline {5}Durchf\IeC {\"u}hrung und Auswertung}{7}
+\contentsline {section}{\numberline {6}Zusammenfassung/Fazit}{8}
