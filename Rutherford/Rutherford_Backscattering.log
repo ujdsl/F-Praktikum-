@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.30)  3 JUN 2018 18:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.30)  4 JUN 2018 20:42
 entering extended mode
 **./Rutherford_Backscattering.tex
 (Rutherford_Backscattering.tex
@@ -863,19 +863,44 @@ File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
 ))
 Missing character: There is no ; in font nullfont!
 ) [5 <./van_de_graaff.png>]) (RBS_Kalibrierung.tex
-Underfull \hbox (badness 10000) in paragraph at lines 8--19
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--19
-
- []
-
 [6
 
 
-]) (RBS_Versuch.tex
+]
+<Kohlenstoffprobe_zur_Kalibrierung.pdf, id=39, 462.52798pt x 346.89601pt>
+File: Kohlenstoffprobe_zur_Kalibrierung.pdf Graphic file (type pdf)
+<use Kohlenstoffprobe_zur_Kalibrierung.pdf>
+Package pdftex.def Info: Kohlenstoffprobe_zur_Kalibrierung.pdf  used on input l
+ine 11.
+(pdftex.def)             Requested size: 462.52684pt x 346.89516pt.
+
+Overfull \hbox (44.27129pt too wide) in paragraph at lines 11--12
+[][] 
+ []
+
+<Goldprobe_zur_Kalibrierung.pdf, id=40, 462.52798pt x 346.89601pt>
+File: Goldprobe_zur_Kalibrierung.pdf Graphic file (type pdf)
+<use Goldprobe_zur_Kalibrierung.pdf>
+Package pdftex.def Info: Goldprobe_zur_Kalibrierung.pdf  used on input line 17.
+
+(pdftex.def)             Requested size: 462.52684pt x 346.89516pt.
+
+Overfull \hbox (44.27129pt too wide) in paragraph at lines 17--18
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--33
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--33
+
+ []
+
+[7 <./Kohlenstoffprobe_zur_Kalibrierung.pdf>] [8 <./Goldprobe_zur_Kalibrierung.
+pdf>]) (RBS_Versuch.tex
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -886,44 +911,124 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Package natbib Warning: Citation `muenze' on page 7 undefined on input line 71.
+Package natbib Warning: Citation `muenze' on page 9 undefined on input line 71.
 
 
-[7]) (RBS_Fazit.tex)
+[9]
+<1Probe.pdf, id=87, 462.52798pt x 346.89601pt>
+File: 1Probe.pdf Graphic file (type pdf)
+<use 1Probe.pdf>
+Package pdftex.def Info: 1Probe.pdf  used on input line 76.
+(pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
+
+Overfull \hbox (43.0497pt too wide) in paragraph at lines 76--77
+[][] 
+ []
+
+<2Probe.pdf, id=88, 462.52798pt x 346.89601pt>
+File: 2Probe.pdf Graphic file (type pdf)
+<use 2Probe.pdf>
+Package pdftex.def Info: 2Probe.pdf  used on input line 82.
+(pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
+
+Overfull \hbox (43.0497pt too wide) in paragraph at lines 82--83
+[][] 
+ []
+
+<3Probe.pdf, id=89, 462.52798pt x 346.89601pt>
+File: 3Probe.pdf Graphic file (type pdf)
+<use 3Probe.pdf>
+Package pdftex.def Info: 3Probe.pdf  used on input line 90.
+(pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
+
+Overfull \hbox (43.0497pt too wide) in paragraph at lines 90--91
+[][] 
+ []
+
+<4Probe.pdf, id=90, 462.52798pt x 346.89601pt>
+File: 4Probe.pdf Graphic file (type pdf)
+<use 4Probe.pdf>
+Package pdftex.def Info: 4Probe.pdf  used on input line 96.
+(pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
+
+Overfull \hbox (43.0497pt too wide) in paragraph at lines 96--97
+[][] 
+ []
+
+<5Probe.pdf, id=91, 462.52798pt x 346.89601pt>
+File: 5Probe.pdf Graphic file (type pdf)
+<use 5Probe.pdf>
+Package pdftex.def Info: 5Probe.pdf  used on input line 104.
+(pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
+
+Overfull \hbox (43.0497pt too wide) in paragraph at lines 104--105
+[][] 
+ []
+
+<1-Cent-Muenze.pdf, id=92, 462.52798pt x 346.89601pt>
+File: 1-Cent-Muenze.pdf Graphic file (type pdf)
+<use 1-Cent-Muenze.pdf>
+Package pdftex.def Info: 1-Cent-Muenze.pdf  used on input line 110.
+(pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
+
+Overfull \hbox (43.0497pt too wide) in paragraph at lines 110--111
+[][] 
+ []
+
+) (RBS_Fazit.tex) [10 <./1Probe.pdf> <./2Probe.pdf
+
+pdfTeX warning: pdflatex (file ./2Probe.pdf): PDF inclusion: multiple pdfs with
+ page group included in a single page
+>] [11 <./3Probe.pdf> <./4Probe.pdf
+
+pdfTeX warning: pdflatex (file ./4Probe.pdf): PDF inclusion: multiple pdfs with
+ page group included in a single page
+> <./5Probe.pdf
+
+pdfTeX warning: pdflatex (file ./5Probe.pdf): PDF inclusion: multiple pdfs with
+ page group included in a single page
+> <./1-Cent-Muenze.pdf
+
+pdfTeX warning: pdflatex (file ./1-Cent-Muenze.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+>]
 No file Rutherford_Backscattering.bbl.
 
 Package natbib Warning: There were undefined citations.
 
-[8] [9] (Rutherford_Backscattering.aux (Aufbau.aux)) ) 
+[12] (Rutherford_Backscattering.aux (Aufbau.aux)) ) 
 Here is how much of TeX's memory you used:
- 20067 strings out of 493305
- 412824 string characters out of 3129802
- 553357 words of memory out of 3000000
- 23219 multiletter control sequences out of 15000+200000
+ 20115 strings out of 493305
+ 413915 string characters out of 3129802
+ 554455 words of memory out of 3000000
+ 23259 multiletter control sequences out of 15000+200000
  17072 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,8n,69p,9106b,1942s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\flori\AppData\
-Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\flor
-i\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1095.pk> <C:\
-Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx144
-0.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi6
-00\ecrm1095.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknapp
-en\ec\dpi600\ecrm1440.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
-our\jknappen\ec\dpi600\ecsx1200.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fo
-nts\pk\ljfour\jknappen\ec\dpi600\ecsx2074.pk><C:/Users/flori/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/flori/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/User
-s/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.
-pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmr6.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/flori/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/flori/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Rutherford_Backscattering.pdf (9 pages, 276736 bytes).
+ 64i,9n,69p,9106b,1942s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\flori\AppData\Loc
+al\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\flori\A
+ppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1095.pk> <C:\Use
+rs\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1440.p
+k> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
+ecrm1095.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
+ec\dpi600\ecrm1440.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
+\jknappen\ec\dpi600\ecsx1200.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts
+\pk\ljfour\jknappen\ec\dpi600\ecsx2074.pk><C:/Users/flori/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/flori/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/f
+lori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr10.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmr6.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/flori/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/flori/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/flori/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/U
+sers/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
+y8.pfb>
+Output written on Rutherford_Backscattering.pdf (12 pages, 485189 bytes).
 PDF statistics:
- 336 PDF objects out of 1000 (max. 8388607)
+ 470 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
