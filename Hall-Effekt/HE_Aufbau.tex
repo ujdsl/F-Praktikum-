@@ -1,1 +1,26 @@
 \section{Versuchsaufbau und Messgeräte}
+Unser Versuch findet aufgrund der nötigen Kühlung mit flüssigem Stickstoff in einem Kryostaten statt. Gleichzeitig ist eine Heizwicklung direkt am Probenträger angebracht, um auch höhere Temperaturbereiche vermessen zu können. Der gesamte Kryostat wird weiterhin unter Vakuum betrieben, für das eine Diffusionspumpe verwendet wird. Im Falle von konventionellen Hall-Effekt-Vermessungen wird von einer quaderförmigen Probengeometrie ausgegangen, um Widerstände quer und längs der Probe wohl definiert bestimmen zu können. In unserem Versuchsaufbau kommt dagegen die sogenannte Van-der-Pauw-Methode zum Einsatz. Bei dieser wird eine undefiniert geformte Germaniumprobe in konstanter Dicke auf eine Trägerplatte aufgedampft. Hierdurch lässt sich eine nahezu planparallele Form der Probe darstellen. An die Ge-Probe werden vier Anschlüsse A, B, C und D angebracht, wobei zwischen zwei Anschlüssen der Messstrom fließen wird und an den anderen beiden der Spannungsabfall gemessen. Um zwischen den Messanschlüssen umschalten zu können, sind die jeweiligen Anschlussleitungen mit einer Umschaltbox verbunden, sodass jegliche Strom- und Spannungskontaktkombinationen vermessen werden können. 
+
+Um nun das für die Vermessung des Hall-Effekts benötigte Magnetfeld anlegen zu können, befindet sich eine Spule am Kryostat. Aufgrund des magnetoresistiven Effekts treten bei der Vermessung des Hall-Effekts unerwüschte Widerstandsänderungen auf, welche unsere Messung verfälschen. Um diese zu minimieren legen wir daher unser Magnetfeld einmal in positiver und einmal in negativer Richtung an, anstatt den Fall mit Magnetfeld zu dem ohne zu vergleichen. Anschaulich gesprochen ändern wir hierfür die Stromrichtung in der Spule. Dafür sind die Spulenanschlüsse mit einem Schalter gekoppelt, über den sich die Stromrichtung umdrehen lässt. Durch den angelegten Strom und die gemessenen Potentialdifferenz lässt sich folgender Widerstand definieren:
+
+\begin{align}
+R_{AB,CD}= \frac{V_D -V_C}{I_{AB}}
+\end{align}
+
+Aus verschiedenen Kombinationen der Anschlüsse für den angelegten Stroms und die gemessene Spannung lässt sich der spezifische Widerstand der Probe herleiten:
+
+\begin{align}
+\rho = \frac{\pi d}{\log{2}}\left(\frac{R_{AB,CD}+R_{BC,DA}}{2}\right)f\left(\frac{R_{AB,CD}}{R_{BC,DA}}\right)
+\end{align}
+
+Die Funktion f stellt dabei einen nicht-analytischen Korrekturfaktor dar, welchen wir aus einer in der Anleitung gegebenen Grafik ablesen können. 
+
+Der Hall-Koeffizient lässt sich ebenfalls mit der van-der-Pauw-Methode bestimmen und ergibt sich zu:
+
+\begin{align}
+R_H=\frac{1}{en}=\frac{d}{B}\Delta R_{BD,AC}
+\end{align}
+
+Für die Temperaturmessung haben wir weiterhin ein Thermospannungselement im Kryostaten hängen. Dieses misst die über eine Temperaturdifferenz abfallende Spannung. Da die Zimmertemperatur als Referenztemperatur zu ungenau ist, verwenden wir ein Becherglas mit Eiswasser als Referenz. Die im Becherglas vorliegende Temperatur beträgt aufgrund des Phasenübergangs exakt $0^{\circ}C$, sodass wir die gemessene Thermospannung in Temperatur umrechnen können. Die entsprechende Eichtabelle findet sich in der Anleitung des Versuchs.
+
+Während die Abkühlung des Versuchsaufbaus mithilfe von flüssigem Stickstoff realisiert wird, verwenden wir für den höheren Temperaturbereich einen Heizdraht, welcher mit maximal $5V$ betrieben wird und die Probe langsam aufheizt. 

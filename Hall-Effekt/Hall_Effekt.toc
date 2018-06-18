@@ -3,8 +3,8 @@
 \contentsline {section}{\numberline {2}Theoretische Grundlagen}{3}
 \contentsline {subsection}{\numberline {2.1}Bandstrukturen}{3}
 \contentsline {subsection}{\numberline {2.2}Dotierung von Halbleitern}{4}
-\contentsline {subsection}{\numberline {2.3}Ladungstransport in Halbleitern}{4}
+\contentsline {subsection}{\numberline {2.3}Ladungstransport in Halbleitern}{6}
 \contentsline {subsection}{\numberline {2.4}Hall-Effekt}{6}
 \contentsline {section}{\numberline {3}Versuchsaufbau und Messger\IeC {\"a}te}{7}
-\contentsline {section}{\numberline {4}Durchf\IeC {\"u}hrung und Auswertung}{7}
-\contentsline {section}{\numberline {5}Zusammenfassung/Fazit}{7}
+\contentsline {section}{\numberline {4}Durchf\IeC {\"u}hrung und Auswertung}{8}
+\contentsline {section}{\numberline {5}Zusammenfassung/Fazit}{11}

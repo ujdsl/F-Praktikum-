@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.30)  3 JUN 2018 19:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.30)  18 JUN 2018 19:19
 entering extended mode
 **./Hall_Effekt.tex
 (Hall_Effekt.tex
@@ -709,7 +709,33 @@ G,.JBIG2,.JB2,.eps]
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- ABD: EveryShipout initializing macros
+Package caption Info: We need package `ragged2e' on input line 21.
+
+("C:\Users\flori\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\ragged2e.sty"
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+
+("C:\Users\flori\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\everysel.sty"
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 126.
+)
+\CenteringLeftskip=\skip62
+\RaggedLeftLeftskip=\skip63
+\RaggedRightLeftskip=\skip64
+\CenteringRightskip=\skip65
+\RaggedLeftRightskip=\skip66
+\RaggedRightRightskip=\skip67
+\CenteringParfillskip=\skip68
+\RaggedLeftParfillskip=\skip69
+\RaggedRightParfillskip=\skip70
+\JustifyingParfillskip=\skip71
+\CenteringParindent=\skip72
+\RaggedLeftParindent=\skip73
+\RaggedRightParindent=\skip74
+\JustifyingParindent=\skip75
+)
+ABD: EveryShipout initializing macros
 LaTeX Font Info:    Try loading font information for T1+cmss on input line 23.
 
 ("C:\Users\flori\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
@@ -727,91 +753,113 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 {C:/Users/flori/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-No file Hall_Effekt.toc.
+(Hall_Effekt.toc)
 \tf@toc=\write4
 \openout4 = `Hall_Effekt.toc'.
 
-[2] (HE_Zielsetzung.tex) (HE_Theorie.tex
+ [2] (HE_Zielsetzung.tex
 ("C:\Users\flori\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\uni-0.def"
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
-)
-[3]
-
-LaTeX Warning: Reference `Dotierung' on page 4 undefined on input line 41.
-
+))
+(HE_Theorie.tex [3]
 ("C:\Users\flori\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\uni-32.def"
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
-
-LaTeX Warning: Reference `Leitung' on page 4 undefined on input line 43.
-
-<Dotierung.png, id=28, 555.57562pt x 204.765pt>
+<Dotierung.png, id=27, 555.57562pt x 204.765pt>
 File: Dotierung.png Graphic file (type png)
 <use Dotierung.png>
 Package pdftex.def Info: Dotierung.png  used on input line 46.
 (pdftex.def)             Requested size: 292.7776pt x 107.9094pt.
 
-Package caption Warning: `ragged2e' support has been changed.
-(caption)                Rerun to get captions right on input line 47.
-See the caption package documentation for explanation.
 
-
-Package natbib Warning: Citation `versuch' on page 4 undefined on input line 47
+Package natbib Warning: Citation `Hofmann' on page 4 undefined on input line 47
 .
 
-<Leitung.png, id=29, 577.15625pt x 451.6875pt>
+<Leitung.png, id=28, 577.15625pt x 451.6875pt>
 File: Leitung.png Graphic file (type png)
 <use Leitung.png>
 Package pdftex.def Info: Leitung.png  used on input line 52.
 (pdftex.def)             Requested size: 292.7776pt x 229.13765pt.
 
-Package natbib Warning: Citation `versuch' on page 4 undefined on input line 53
+Package natbib Warning: Citation `Leitung' on page 4 undefined on input line 53
 .
 
-[4] [5 <./Dotierung.png> <./Leitung.png>] [6]) (HE_Aufbau.tex) (HE_Versuch.tex)
-(HE_Fazit.tex)
+[4] [5 <./Dotierung.png> <./Leitung.png>] [6]) (HE_Aufbau.tex [7])
+(HE_Versuch.tex
+<temp_fit.pdf, id=48, 462.52798pt x 346.89601pt>
+File: temp_fit.pdf Graphic file (type pdf)
+<use temp_fit.pdf>
+Package pdftex.def Info: temp_fit.pdf  used on input line 5.
+(pdftex.def)             Requested size: 323.76736pt x 242.82555pt.
+<temp_hall.pdf, id=49, 462.52798pt x 346.89601pt>
+File: temp_hall.pdf Graphic file (type pdf)
+<use temp_hall.pdf>
+Package pdftex.def Info: temp_hall.pdf  used on input line 15.
+(pdftex.def)             Requested size: 323.76736pt x 242.82555pt.
+<temp_rho.pdf, id=50, 462.52798pt x 346.89601pt>
+File: temp_rho.pdf Graphic file (type pdf)
+<use temp_rho.pdf>
+Package pdftex.def Info: temp_rho.pdf  used on input line 21.
+(pdftex.def)             Requested size: 323.76736pt x 242.82555pt.
+<temp_n.pdf, id=51, 462.52798pt x 346.89601pt>
+File: temp_n.pdf Graphic file (type pdf)
+<use temp_n.pdf>
+Package pdftex.def Info: temp_n.pdf  used on input line 27.
+(pdftex.def)             Requested size: 323.76736pt x 242.82555pt.
+ [8] [9 <./temp_fit.pdf> <./temp_hall.pdf
+
+pdfTeX warning: pdflatex (file ./temp_hall.pdf): PDF inclusion: multiple pdfs w
+ith page group included in a single page
+>] [10 <./temp_rho.pdf> <./temp_n.pdf
+
+pdfTeX warning: pdflatex (file ./temp_n.pdf): PDF inclusion: multiple pdfs with
+ page group included in a single page
+>]) (HE_Fazit.tex)
 No file Hall_Effekt.bbl.
 
 Package natbib Warning: There were undefined citations.
 
-[7] (Hall_Effekt.aux)
-
-LaTeX Warning: There were undefined references.
-
+[11] (Hall_Effekt.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 17710 strings out of 493305
- 340573 string characters out of 3129802
- 472442 words of memory out of 3000000
- 20922 multiletter control sequences out of 15000+200000
+ 17818 strings out of 493305
+ 342918 string characters out of 3129802
+ 474518 words of memory out of 3000000
+ 21018 multiletter control sequences out of 15000+200000
  17072 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,8n,60p,9092b,482s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 64i,10n,60p,9092b,482s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
 ecbx1095.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
-ec\dpi600\ecsx1440.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
-\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts
-\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\flori\AppData\Local\MiKTeX
-\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1200.pk> <C:\Users\flori\AppData\Lo
-cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx2074.pk><C:/Users/flori/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/
-Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-mi10.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmmi6.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmmi8.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/flori/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/flori/AppData
-/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/fl
-ori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmsy8.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/symbols/msbm10.pfb>
-Output written on Hall_Effekt.pdf (7 pages, 214732 bytes).
+ec\dpi600\ecsx1095.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
+\jknappen\ec\dpi600\ecsx1440.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts
+\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\flori\AppData\Local\MiKTeX
+\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\flori\AppData\Lo
+cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1200.pk> <C:\Users\flori\
+AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx2074.pk><C:/Use
+rs/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex1
+0.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmmi10.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmmi6.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/flori/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/flori/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/fl
+ori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+<C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmr6.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr7.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmr8.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/flori/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/flori/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users
+/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/ms
+bm10.pfb>
+Output written on Hall_Effekt.pdf (11 pages, 474535 bytes).
 PDF statistics:
- 294 PDF objects out of 1000 (max. 8388607)
+ 443 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
