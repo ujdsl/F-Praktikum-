@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.30)  18 JUN 2018 19:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.30)  18 JUN 2018 21:55
 entering extended mode
 **./Hall_Effekt.tex
 (Hall_Effekt.tex
@@ -610,7 +610,11 @@ LaTeX Info: Redefining \cite on input line 694.
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(Hall_Effekt.aux)
+(Hall_Effekt.aux
+
+LaTeX Warning: Label `hall' multiply defined.
+
+)
 \openout1 = `Hall_Effekt.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
@@ -625,8 +629,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
-
-("C:\Users\flori\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\ucsencs.def"
+ ("C:\Users\flori\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\ucsencs.def"
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
 ("C:\Users\flori\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
@@ -784,82 +787,181 @@ Package pdftex.def Info: Leitung.png  used on input line 52.
 Package natbib Warning: Citation `Leitung' on page 4 undefined on input line 53
 .
 
-[4] [5 <./Dotierung.png> <./Leitung.png>] [6]) (HE_Aufbau.tex [7])
-(HE_Versuch.tex
-<temp_fit.pdf, id=48, 462.52798pt x 346.89601pt>
+[4] [5 <./Dotierung.png> <./Leitung.png>] [6]) (HE_Aufbau.tex
+
+LaTeX Warning: Reference `aufbau' on page 7 undefined on input line 2.
+
+\openout2 = `Aufbau.aux'.
+
+(Aufbau.tex
+("C:\Users\flori\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlaye
+r\tikz\libraries\tikzlibraryshapes.code.tex"
+File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+("C:\Users\flori\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlaye
+r\tikz\libraries\tikzlibraryshapes.geometric.code.tex"
+File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
+
+("C:\Users\flori\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\sh
+apes\pgflibraryshapes.geometric.code.tex"
+File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+
+))
+("C:\Users\flori\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlaye
+r\tikz\libraries\tikzlibraryshapes.misc.code.tex"
+File: tikzlibraryshapes.misc.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+("C:\Users\flori\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\sh
+apes\pgflibraryshapes.misc.code.tex"
+File: pgflibraryshapes.misc.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.5)
+))
+("C:\Users\flori\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlaye
+r\tikz\libraries\tikzlibraryshapes.symbols.code.tex"
+File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+("C:\Users\flori\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\sh
+apes\pgflibraryshapes.symbols.code.tex"
+File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.1a (rcs-revision 1.6)
+))
+("C:\Users\flori\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlaye
+r\tikz\libraries\tikzlibraryshapes.arrows.code.tex"
+File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+("C:\Users\flori\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\sh
+apes\pgflibraryshapes.arrows.code.tex"
+File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+))
+("C:\Users\flori\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlaye
+r\tikz\libraries\tikzlibraryshapes.callouts.code.tex"
+("C:\Users\flori\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\sh
+apes\pgflibraryshapes.callouts.code.tex"))
+("C:\Users\flori\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlaye
+r\tikz\libraries\tikzlibraryshapes.multipart.code.tex"
+File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
+
+("C:\Users\flori\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\sh
+apes\pgflibraryshapes.multipart.code.tex"
+File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
+
+\pgfnodepartlowerbox=\box42
+\pgfnodeparttwobox=\box43
+\pgfnodepartthreebox=\box44
+\pgfnodepartfourbox=\box45
+\pgfnodeparttwentybox=\box46
+\pgfnodepartnineteenbox=\box47
+\pgfnodeparteighteenbox=\box48
+\pgfnodepartseventeenbox=\box49
+\pgfnodepartsixteenbox=\box50
+\pgfnodepartfifteenbox=\box51
+\pgfnodepartfourteenbox=\box52
+\pgfnodepartthirteenbox=\box53
+\pgfnodeparttwelvebox=\box54
+\pgfnodepartelevenbox=\box55
+\pgfnodeparttenbox=\box56
+\pgfnodepartninebox=\box57
+\pgfnodeparteightbox=\box58
+\pgfnodepartsevenbox=\box59
+\pgfnodepartsixbox=\box60
+\pgfnodepartfivebox=\box61
+)))
+("C:\Users\flori\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlaye
+r\tikz\libraries\tikzlibraryarrows.code.tex"
+File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+("C:\Users\flori\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pg
+flibraryarrows.code.tex"
+File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
+\arrowsize=\dimen170
+))) [7
+
+
+]) (HE_Versuch.tex [8]
+<temp_fit.pdf, id=52, 462.52798pt x 346.89601pt>
 File: temp_fit.pdf Graphic file (type pdf)
 <use temp_fit.pdf>
 Package pdftex.def Info: temp_fit.pdf  used on input line 5.
 (pdftex.def)             Requested size: 323.76736pt x 242.82555pt.
-<temp_hall.pdf, id=49, 462.52798pt x 346.89601pt>
+<temp_hall.pdf, id=53, 462.52798pt x 346.89601pt>
 File: temp_hall.pdf Graphic file (type pdf)
 <use temp_hall.pdf>
 Package pdftex.def Info: temp_hall.pdf  used on input line 15.
 (pdftex.def)             Requested size: 323.76736pt x 242.82555pt.
-<temp_rho.pdf, id=50, 462.52798pt x 346.89601pt>
+<temp_rho.pdf, id=54, 462.52798pt x 346.89601pt>
 File: temp_rho.pdf Graphic file (type pdf)
 <use temp_rho.pdf>
 Package pdftex.def Info: temp_rho.pdf  used on input line 21.
 (pdftex.def)             Requested size: 323.76736pt x 242.82555pt.
-<temp_n.pdf, id=51, 462.52798pt x 346.89601pt>
+<temp_n.pdf, id=55, 462.52798pt x 346.89601pt>
 File: temp_n.pdf Graphic file (type pdf)
 <use temp_n.pdf>
 Package pdftex.def Info: temp_n.pdf  used on input line 27.
 (pdftex.def)             Requested size: 323.76736pt x 242.82555pt.
- [8] [9 <./temp_fit.pdf> <./temp_hall.pdf
+ [9 <./temp_fit.pdf>]
+[10 <./temp_hall.pdf> <./temp_rho.pdf
 
-pdfTeX warning: pdflatex (file ./temp_hall.pdf): PDF inclusion: multiple pdfs w
-ith page group included in a single page
->] [10 <./temp_rho.pdf> <./temp_n.pdf
+pdfTeX warning: pdflatex (file ./temp_rho.pdf): PDF inclusion: multiple pdfs wi
+th page group included in a single page
+>]
 
-pdfTeX warning: pdflatex (file ./temp_n.pdf): PDF inclusion: multiple pdfs with
- page group included in a single page
->]) (HE_Fazit.tex)
+LaTeX Warning: Reference `mu' on page 11 undefined on input line 49.
+
+<temp_mu.pdf, id=132, 462.52798pt x 346.89601pt>
+File: temp_mu.pdf Graphic file (type pdf)
+<use temp_mu.pdf>
+Package pdftex.def Info: temp_mu.pdf  used on input line 52.
+(pdftex.def)             Requested size: 323.76736pt x 242.82555pt.
+) (HE_Fazit.tex [11 <./temp_n.pdf>])
 No file Hall_Effekt.bbl.
 
 Package natbib Warning: There were undefined citations.
 
-[11] (Hall_Effekt.aux)
+[12 <./temp_mu.pdf>] (Hall_Effekt.aux (Aufbau.aux))
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 17818 strings out of 493305
- 342918 string characters out of 3129802
- 474518 words of memory out of 3000000
- 21018 multiletter control sequences out of 15000+200000
- 17072 words of font info for 51 fonts, out of 3000000 for 9000
+ 20367 strings out of 493305
+ 415377 string characters out of 3129802
+ 559802 words of memory out of 3000000
+ 23514 multiletter control sequences out of 15000+200000
+ 17838 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,10n,60p,9092b,482s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 64i,10n,69p,9092b,1934s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
-ecbx1095.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
-ec\dpi600\ecsx1095.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
-\jknappen\ec\dpi600\ecsx1440.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts
-\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\flori\AppData\Local\MiKTeX
-\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\flori\AppData\Lo
-cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1200.pk> <C:\Users\flori\
-AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx2074.pk><C:/Use
-rs/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex1
-0.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmmi10.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmmi6.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/flori/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/flori/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/fl
-ori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-<C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmr6.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmr7.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmr8.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/flori/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/flori/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users
-/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/ms
-bm10.pfb>
-Output written on Hall_Effekt.pdf (11 pages, 474535 bytes).
+ecrm0600.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
+ec\dpi600\ecbx1095.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
+\jknappen\ec\dpi600\ecsx1095.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts
+\pk\ljfour\jknappen\ec\dpi600\ecsx1440.pk> <C:\Users\flori\AppData\Local\MiKTeX
+\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\flori\AppData\Lo
+cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\flori\
+AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1200.pk> <C:\Us
+ers\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx2074.
+pk><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmex10.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmmi10.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/flori/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/flori/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/flor
+i/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
+:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr12.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr6.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr7.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/flori/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/flori/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/f
+lori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+symbols/msbm10.pfb>
+Output written on Hall_Effekt.pdf (12 pages, 493275 bytes).
 PDF statistics:
- 443 PDF objects out of 1000 (max. 8388607)
+ 480 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 48 words of extra memory for PDF output out of 10000 (max. 10000000)
 
