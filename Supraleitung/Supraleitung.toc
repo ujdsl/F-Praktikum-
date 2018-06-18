@@ -1,5 +1,12 @@
 \babel@toc {ngerman}{}
-\contentsline {section}{\numberline {1}Theoretische Grundlagen}{3}
-\contentsline {subsection}{\numberline {1.1}London-Theorie}{3}
-\contentsline {subsection}{\numberline {1.2}Ginzburg-Landau-Theorie}{3}
-\contentsline {subsection}{\numberline {1.3}BCS-Theorie}{4}
+\contentsline {section}{\numberline {1}Zielsetzung}{3}
+\contentsline {section}{\numberline {2}Theoretische Grundlagen}{3}
+\contentsline {subsection}{\numberline {2.1}Ph\IeC {\"a}nomene der Supraleitung}{3}
+\contentsline {subsection}{\numberline {2.2}Supraleiter 1. und 2. Art}{4}
+\contentsline {subsection}{\numberline {2.3}Theorien der Supraleitung}{6}
+\contentsline {subsubsection}{\numberline {2.3.1}London-Theorie}{6}
+\contentsline {subsubsection}{\numberline {2.3.2}Ginzburg-Landau-Theorie}{7}
+\contentsline {subsubsection}{\numberline {2.3.3}BCS-Theorie}{7}
+\contentsline {section}{\numberline {3}Versuchsaufbau und Messger\IeC {\"a}te}{8}
+\contentsline {section}{\numberline {4}Durchf\IeC {\"u}hrung und Auswertung}{8}
+\contentsline {section}{\numberline {5}Zusammenfassung/Fazit}{8}
