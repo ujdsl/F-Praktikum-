@@ -1,0 +1,5 @@
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Theoretische Grundlagen}{3}
+\contentsline {subsection}{\numberline {1.1}London-Theorie}{3}
+\contentsline {subsection}{\numberline {1.2}Ginzburg-Landau-Theorie}{3}
+\contentsline {subsection}{\numberline {1.3}BCS-Theorie}{4}
