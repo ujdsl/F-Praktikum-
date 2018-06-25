@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.30)  24 JUN 2018 23:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.30)  25 JUN 2018 08:28
 entering extended mode
 **"./Optisches Pumpen.tex"
 ("Optisches Pumpen.tex"
@@ -709,7 +709,33 @@ G,.JBIG2,.JB2,.eps]
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- ABD: EveryShipout initializing macros
+Package caption Info: We need package `ragged2e' on input line 21.
+
+("C:\Users\flori\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\ragged2e.sty"
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+
+("C:\Users\flori\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\everysel.sty"
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 126.
+)
+\CenteringLeftskip=\skip62
+\RaggedLeftLeftskip=\skip63
+\RaggedRightLeftskip=\skip64
+\CenteringRightskip=\skip65
+\RaggedLeftRightskip=\skip66
+\RaggedRightRightskip=\skip67
+\CenteringParfillskip=\skip68
+\RaggedLeftParfillskip=\skip69
+\RaggedRightParfillskip=\skip70
+\JustifyingParfillskip=\skip71
+\CenteringParindent=\skip72
+\RaggedLeftParindent=\skip73
+\RaggedRightParindent=\skip74
+\JustifyingParindent=\skip75
+)
+ABD: EveryShipout initializing macros
 LaTeX Font Info:    Try loading font information for T1+cmss on input line 23.
 
 ("C:\Users\flori\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
@@ -732,57 +758,48 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout4 = `"Optisches Pumpen.toc"'.
 
  [2] (OP_Zielsetzung.tex) (OP_Theorie.tex
-
-LaTeX Warning: Reference `states' on page 3 undefined on input line 9.
-
-<level87.png, id=16, 543.53062pt x 709.90219pt>
+<level87.png, id=17, 543.53062pt x 709.90219pt>
 File: level87.png Graphic file (type png)
 <use level87.png>
 Package pdftex.def Info: level87.png  used on input line 12.
 (pdftex.def)             Requested size: 380.46883pt x 496.92815pt.
 
-Package caption Warning: `ragged2e' support has been changed.
-(caption)                Rerun to get captions right on input line 13.
-See the caption package documentation for explanation.
-
 ("C:\Users\flori\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\uni-0.def"
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
-))
-(OP_Aufbau.tex) (OP_Versuch.tex) (OP_Fazit.tex)
+)
+[3] [4 <./level87.png (PNG copy)>]) (OP_Aufbau.tex) (OP_Versuch.tex)
+(OP_Fazit.tex)
 No file "Optisches Pumpen".bbl.
-[3] [4 <./level87.png (PNG copy)>] [5] ("Optisches Pumpen.aux")
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+[5] [6] ("Optisches Pumpen.aux") ) 
 Here is how much of TeX's memory you used:
- 17449 strings out of 493305
- 337727 string characters out of 3129802
- 472444 words of memory out of 3000000
- 20663 multiletter control sequences out of 15000+200000
- 17072 words of font info for 51 fonts, out of 3000000 for 9000
+ 17529 strings out of 493305
+ 339529 string characters out of 3129802
+ 472487 words of memory out of 3000000
+ 20738 multiletter control sequences out of 15000+200000
+ 16289 words of font info for 50 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,9n,60p,9099b,482s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
-ecbx1095.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
-ec\dpi600\ecsx1440.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
-\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts
-\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\flori\AppData\Local\MiKTeX
-\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1200.pk> <C:\Users\flori\AppData\Lo
-cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx2074.pk><C:/Users/flori/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/
+ <C:\Users\flori\AppData\Local\MiKTeX\2.9\fon
+ts\pk\ljfour\jknappen\ec\dpi600\ecsx1095.pk> <C:\Users\flori\AppData\Local\MiKT
+eX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1440.pk> <C:\Users\flori\AppData\
+Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\flor
+i\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\
+Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx120
+0.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi6
+00\ecsx2074.pk><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmmi10.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/flori/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/flori/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/flori
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/
 Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-mi8.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmr10.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr6.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/flori/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "Optisches Pumpen.pdf" (5 pages, 138528 bytes).
+r8.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmsy8.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on "Optisches Pumpen.pdf" (6 pages, 178063 bytes).
 PDF statistics:
- 247 PDF objects out of 1000 (max. 8388607)
+ 304 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

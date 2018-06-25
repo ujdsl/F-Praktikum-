@@ -2,6 +2,8 @@
 \contentsline {section}{\numberline {1}Zielsetzung}{3}
 \contentsline {section}{\numberline {2}Theoreticals}{3}
 \contentsline {subsection}{\numberline {2.1}Energy States of Rubidium and Zeemann-Effect}{3}
-\contentsline {section}{\numberline {3}Versuchsaufbau und Messger\IeC {\"a}te}{5}
-\contentsline {section}{\numberline {4}Durchf\IeC {\"u}hrung und Auswertung}{5}
-\contentsline {section}{\numberline {5}Zusammenfassung/Fazit}{5}
+\contentsline {subsection}{\numberline {2.2}Optical Pumping}{5}
+\contentsline {subsection}{\numberline {2.3}Stimulated emission}{5}
+\contentsline {section}{\numberline {3}Versuchsaufbau und Messger\IeC {\"a}te}{6}
+\contentsline {section}{\numberline {4}Durchf\IeC {\"u}hrung und Auswertung}{6}
+\contentsline {section}{\numberline {5}Zusammenfassung/Fazit}{6}
