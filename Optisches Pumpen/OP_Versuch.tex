@@ -1,10 +1,75 @@
 \section{Execution and results}
 \subsection{Optical pumping and relaxation time}
-In the first part of our experiment we want to measure the optical pumping time, which it takes to trap all electrons in the $m_f = 2$ -state. If we then turn off the magnetic field, all of the different $m_f$-states collapse to the same energy level and lose their polarization too. This takes some time, which is called relaxation time
+In the first part of our experiment we want to measure the optical pumping time, which it takes to trap all electrons in the $m_f = 2$ -state. If we then turn off the magnetic field, all of the different $m_f$-states collapse to the same energy level and lose their polarization too. This takes some time, which is called relaxation time and which we want to measure, too. 
 
+If we simply would turn on magnetic field and radiation, the $m_f=2$ - state would be reached so fast, that we would not see anything in our detector. So we have to distort the system so we can see the optical pumping process on the oscilloscope. For that, we apply an alternating current of the function generator to one of the horizontal Helmholtz coils, which generates a small alternating magnetic field. Additionally we put the alternating current signal to the oscilloscope so we can trigger our detector signal in reference to the magnetic field. 
 
+Before we can start our measurement, we need to compensate the earth magnetic field which otherwise would distort our results and even could make the measurement impossible because of its strenght. The earth magnetic field values are $B_h= 20 \mu T$ and $B_v = 44 \mu T$, while the magnetic field of a pair of helmholtz coils can be calculated by:
 
+\begin{align}
+B= \left(\frac{4}{5}\right)^{\frac{3}{2}}\frac{\mu _0 nI}{R}
+\end{align}
 
+There n is the number of windigs in the Helmholtz coils and R the radius of the coils. The characteristic values and the calculated current for the helmholtz coils are found in Table \ref{coils}. 
 
+\begin{table}[h]
+	\caption{Values of Helmholtz coils}
+	\begin{tabular}{|c|c|c|c|c|}
+	\hline
+	 & B in $\mu T$ & R in m & n & I in A \\ \hline
+	   $B_h$ & 20 & 0,15 & 400 & 0,005\\ \hline
+	   $B_v$ & 44 & 0,2 & 20 & 0,302 \\ \hline
+	\end{tabular}
+\label{coils}
+\end{table}
+
+With a so scaled DC current through the pairs of Helmholtz coils, we can start our measurement and apply an alternating current through the third helmholtz coils. With that, we see a characteristic trace on the oscilloscope with a raise due to optical pumping and a fall due to the zero-point of the magnetic field and the decrease of polarization. The values for the measured charactersistic times are:
+
+\begin{align}
+t_{optical pumping} = 19,6 ms \\
+t_{relaxation} = 11,6 ms
+\end{align}
 
 \subsection{Energy splitting of Zeeman - states}
+
+In the second part of the experiment we want to measure the energy splitting of the  different $m_f$-states which occur with a applied constant magnetic field. For this we apply a constant current to one of the helmholtz coils used for compensating the earth field in the first part. Important is to choose a field strenght much higher than the earth field, so its effect can be neglected.
+
+To measure the Zeeman-splitting, we use the described effect of stimulated emission. Because of the very small energy difference between the Zeeman-states, we need a radiation with a high wavelenght in radiofrequency area. We realize this again by a alternating current, which we put directly on an antenne placed in the Rb-cell. The theoretical value of Zeeman-splitting can be calculated by:
+
+\begin{align}
+E = g_f\left(\frac{e\hbar}{2m}\right)Bm_f
+\end{align}
+
+The Landé-factor $g_f$ can be calculate by the formula in the theoreticals part. As we have our atoms in the $^{2}s_{\frac{1}{2}}$-state, we have $L=0$, $S=\frac{1}{2}$ and $J=\frac{1}{2}$. For the nuclei-spins we have $I=\frac{3}{2}$ for $^{87}Rb$ and $I=\frac{5}{2}$ for $^{85}Rb$. With that, we can calculate the theoretical Zeeman-splitting for both Rb-isotopes. With the relation $E=h\nu$ we can calculate our theoretical frequency, with which we need to apply the AC-current. Since we have different tolerances in our experiment which distort our measurements, we pick up three values for the applied magnetic fields (e.G. the applied DC current) and look for the resonant frequency which shows the appearing stimulated emission. The used currents and the calculated magnetic fields, frequencies and found frequencies for both Rb-isotopes are found in table \ref{Zeeman}.
+
+The values for $g_f$ for both Rb-isotopes are:
+
+\begin{align}
+g_f \left(^{85}Rb\right) = \frac{1}{3} \\
+g_f \left(^{87}Rb\right) = \frac{1}{2}
+\end{align}
+
+\begin{table}[h]
+	\caption{Zeeman-splitting frequencies}
+	\begin{tabular}{|c|c|c|c|c|c|}
+	\hline
+	 &  B in $ 10^{-4}T$ & $\nu_{theo.}\left(^{87}Rb\right)$ & $\nu_{theo.}\left(^{85}Rb\right)$ & $\nu_{exp.}\left(^{87}Rb\right)$ & $\nu_{exp.}\left(^{85}Rb\right)$ \\ \hline
+	 $I=0,07 A$ & 1,68 & 1,17 MHz & 0,78 MHz& 1,03 MHz& 0,68 MHz\\ \hline
+	 $I=0,09 A$ & 2,16 & 1,51 MHz& 1,01 MHz& 1,35 MHz& 0,84 MHz\\ \hline
+	 $I=0,11 A$ & 2,64 & 1,85 MHz& 1,23 MHz& 1,66 MHz& 1,11 MHz\\ \hline
+	\end{tabular}
+\label{Zeeman}
+\end{table}
+
+According to that, we calculate the experimental energy values and the average for both isotopes:
+
+\begin{table}[h]
+	\caption{Calculated Zeeman-splitting energies}
+	\begin{tabular}{|c|c|c|c|c|c|}
+	\hline
+	 &  $\Delta E _{I1}$ in eV & $\Delta E _{I2}$ in eV& $\Delta E _{I3}$ in eV & $\Delta E _{\varnothing}$ in eV & $\Delta E _{theo}$ in eV\\ \hline
+	 $^{85}$Rb & 1,68 & 1,17 MHz & 0,78 MHz& 1,03 MHz& 0,68 MHz\\ \hline
+	 $^{87}$Rb & 2,16 & 1,51 MHz& 1,01 MHz& 1,35 MHz& 0,84 MHz\\ \hline
+	\end{tabular}
+\label{Zeeman}
+\end{table}
