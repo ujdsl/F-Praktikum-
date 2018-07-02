@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.30)  2 JUL 2018 14:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.30)  2 JUL 2018 14:21
 entering extended mode
 **./Supraleitung.tex
 (Supraleitung.tex
@@ -797,23 +797,33 @@ Package natbib Warning: Citation `supraleitung' on page 5 undefined on input li
 ne 31.
 
 [5 <./2_art.png>] [6 <./2_art2.png>] [7]) (SL_Aufbau.tex
+<AC-auf.png, id=48, 302.63063pt x 167.87718pt>
+File: AC-auf.png Graphic file (type png)
+<use AC-auf.png>
+Package pdftex.def Info: AC-auf.png  used on input line 8.
+(pdftex.def)             Requested size: 410.33464pt x 227.62204pt.
 
-LaTeX Warning: Reference `aufbau' on page 8 undefined on input line 2.
-
-<Aufbau.png, id=48, 482.55281pt x 325.96782pt>
-File: Aufbau.png Graphic file (type png)
-<use Aufbau.png>
-Package pdftex.def Info: Aufbau.png  used on input line 6.
-(pdftex.def)             Requested size: 336.9747pt x 227.62204pt.
 
 Package natbib Warning: Citation `Anleitung' on page 8 undefined on input line 
-8.
+10.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (SL_Versuch.tex [8]
-<Temperaturverlauf_des_Widerstands_der_Indiumprobe.pdf, id=52, 433.62pt x 722.7
+<Aufbau.png, id=49, 482.55281pt x 325.96782pt>
+File: Aufbau.png Graphic file (type png)
+<use Aufbau.png>
+Package pdftex.def Info: Aufbau.png  used on input line 19.
+(pdftex.def)             Requested size: 336.9747pt x 227.62204pt.
+
+Package natbib Warning: Citation `Anleitung' on page 8 undefined on input line 
+21.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (SL_Versuch.tex [8] [9 <./AC-auf.png> <./Aufbau.png>]
+<Temperaturverlauf_des_Widerstands_der_Indiumprobe.pdf, id=56, 433.62pt x 722.7
 pt>
 File: Temperaturverlauf_des_Widerstands_der_Indiumprobe.pdf Graphic file (type 
 pdf)
@@ -834,10 +844,7 @@ Overfull \hbox (7.4768pt too wide) in paragraph at lines 15--16
 s-ab-fall bei der je-wei-li-gen Sprung-
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<B-T-Phasendiagramm_der_Indiumprobe.pdf, id=53, 462.52798pt x 346.89601pt>
+<B-T-Phasendiagramm_der_Indiumprobe.pdf, id=57, 462.52798pt x 346.89601pt>
 File: B-T-Phasendiagramm_der_Indiumprobe.pdf Graphic file (type pdf)
 <use B-T-Phasendiagramm_der_Indiumprobe.pdf>
 Package pdftex.def Info: B-T-Phasendiagramm_der_Indiumprobe.pdf  used on input 
@@ -846,7 +853,7 @@ line 42.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (SL_Fazit.tex [9 <./Aufbau.png>]) (Supraleitung.bbl
+) (SL_Fazit.tex) [10] (Supraleitung.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 10.
 
@@ -854,49 +861,43 @@ Package natbib Warning: Empty `thebibliography' environment on input line 10.
 
 Package natbib Warning: There were undefined citations.
 
-[10] [11 <./Temperaturverlauf_des_Widerstands_der_Indiumprobe.pdf>] [12 <./B-T-
-Phasendiagramm_der_Indiumprobe.pdf>] (Supraleitung.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+[11] [12 <./Temperaturverlauf_des_Widerstands_der_Indiumprobe.pdf>] [13 <./B-T-
+Phasendiagramm_der_Indiumprobe.pdf>] (Supraleitung.aux) ) 
 Here is how much of TeX's memory you used:
- 17586 strings out of 493305
- 340656 string characters out of 3129802
- 472568 words of memory out of 3000000
- 20785 multiletter control sequences out of 15000+200000
+ 17592 strings out of 493305
+ 340736 string characters out of 3129802
+ 472584 words of memory out of 3000000
+ 20790 multiletter control sequences out of 15000+200000
  18602 words of font info for 53 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,20n,60p,9093b,618s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
-ecrm0800.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
-ec\dpi600\ecbx1095.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
-\jknappen\ec\dpi600\ecsx1095.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts
-\pk\ljfour\jknappen\ec\dpi600\ecsx1440.pk> <C:\Users\flori\AppData\Local\MiKTeX
-\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\flori\AppData\Lo
-cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\flori\
-AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1200.pk> <C:\Us
-ers\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx2074.
-pk><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmex10.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmmi10.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/flori/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/flori/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/flor
-i/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
-:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmr12.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmr5.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmr8.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/flori/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/flori/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Supraleitung.pdf (12 pages, 880703 bytes).
+ <C:\Users\flori\AppDa
+ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk> <C:\Users\f
+lori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <
+C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx
+1095.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\d
+pi600\ecsx1440.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkn
+appen\ec\dpi600\ecrm1095.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9\fonts\pk\
+ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\flori\AppData\Local\MiKTeX\2.9
+\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1200.pk> <C:\Users\flori\AppData\Local\
+MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx2074.pk><C:/Users/flori/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/User
+s/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10
+.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmmi5.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmmi7.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/flori/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/flori/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/flor
+i/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:
+/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr8.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmsy8.pfb><C:/Users/flori/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Supraleitung.pdf (13 pages, 1010518 bytes).
 PDF statistics:
- 421 PDF objects out of 1000 (max. 8388607)
+ 430 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 48 words of extra memory for PDF output out of 10000 (max. 10000000)
 

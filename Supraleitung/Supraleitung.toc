@@ -8,5 +8,7 @@
 \contentsline {subsubsection}{\numberline {2.3.2}Ginzburg-Landau-Theorie}{7}
 \contentsline {subsubsection}{\numberline {2.3.3}BCS-Theorie}{7}
 \contentsline {section}{\numberline {3}Versuchsaufbau und Messger\IeC {\"a}te}{8}
-\contentsline {section}{\numberline {4}Durchf\IeC {\"u}hrung und Auswertung}{8}
-\contentsline {section}{\numberline {5}Zusammenfassung/Fazit}{10}
+\contentsline {subsection}{\numberline {3.1}AC-Suzeptibilit\IeC {\"a}t}{8}
+\contentsline {subsection}{\numberline {3.2}Phasen\IeC {\"u}bergang der Indiumprobe}{8}
+\contentsline {section}{\numberline {4}Durchf\IeC {\"u}hrung und Auswertung}{10}
+\contentsline {section}{\numberline {5}Zusammenfassung/Fazit}{11}
