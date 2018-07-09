@@ -1,1 +1,73 @@
-\section{Theoreticals}
+\section{Theorie}
+Die grundlegende Eigenschaft für den vorliegenden Versuch ist der Spin. Als rein quantenmechanische Eigenschaft besitzt der Spin kein klassisches Analogon und kann zwar mit dem Eigendrehimpuls eines Körpers verglichen aber nicht gleichgesetzt werden. Wichtige Unterschiede liegen vor allem in der Quantelung des Spins und in der fehlenden räumlichen Ausdehnung der quantenmechanischen Teilchen wie z.B. dem Elektron. Der Spin eines Teilchens lässt sich über zwei Kenngrößen beschreiben, wobei man üblicherweise die z-Komponente und den Betrag des Spin-Vektors auswählt. Im Fall eines Spins I lauten diese:
+
+\begin{align}
+\vert I \vert = \sqrt{I\left(I+1)\right)\hbar^2} \\
+I_z=m_I \hbar \\
+m_I \in [-I,I]
+\end{align}
+
+Über die magnetische Quantenzahl $m_I$ ergeben sich dann $2I+1$ verschiedene Einstellmöglichkeiten, die jedoch in Abwesenheit externer Felder alle energetisch entartet sind.
+
+Wie jeder Drehimpuls geladener Teilchen ist natürlich auch der Spin mit einem magnetischen Moment verbunden, über das er z.B. mit einem externen Magnetfeld wechselwirken kann. Den teilchenabhängigen Proportionalitätsfaktor zwischen Spin und magnetischem Moment bezeichnet man als gyromagnetisches Verhältnis $\gamma$. Dieses ist schon in klassischer Rechnung bekannt und ergibt sich im Fall eines Elektrons mit Ladung $-e$, Masse $m_e$ und klassischem Bahndrehimpulses L zu:
+
+\begin{align}
+\overrightarrow{\mu_L}=\gamma \cdot \overrightarrow{L} = \frac{q}{2m}\cdot \overrightarrow{L}=\frac{-e}{2m_e}\cdot \overrightarrow{L} = -\mu_B \cdot \frac{\overrightarrow{L}}{\hbar}
+\end{align}
+
+Dabei bezeichnet $\mu_B=\frac{e\hbar}{2m_e}$ das sogenannte Bohrsche Magneton, eine Naturkonstante. 
+
+Das gyromagnetische Verhältnis im Fall des Spins lässt sich prinzipiell nach obigem Beispiel berechnen. Aus Messungen und auch aus relativistischen Quantenmechanik-Rechnungen lässt sich jedoch feststellen, dass obige Gleichung im Fall des Spins noch um den Landé-Faktor g ergänzt werden muss. Dieser ist ebenfalls teilchenabhängig und gibt eine unterschiedlich starkes magnetisches Moment im Bezug auf den Spin an. Im Fall eines Elektrons und eines Atomkerns lautet die Beziehung zwischen den Spins S (Elektronspin) bzw. I (Kernspin) und dem jeweiligen magnetischen Moment wie folgt:
+
+\begin{align}
+\overrightarrow{\mu_S}=-\frac{\mu_B}{\hbar}\cdot \overrightarrow{S}\cdot g \\
+\overrightarrow{\mu_I}=\frac{e\hbar}{2m_p}\cdot \frac{\overrightarrow{S}}{\hbar}\cdot g 
+\end{align}
+
+Die Größe $\frac{e\hbar}{2m_p}$ bezeichnet man analog zum Bohrschen Magneton als Kernmagneton $\mu_N$. Um auch bei verschiedenen Teilchen weiter mit diesen beiden Naturkonstanten rechnen zu können, definiert man alle Abweichungen von dieser Größe in den jeweiligen g-Faktor des untersuchten Teilchens. Im Fall des Protons beträgt dieser ungefähr: $g \approx 5,586$.
+
+Durch Vergleich der Formeln lässt sich nun das gyromagnetische Verhältnis in Beziehung zum Landé-Faktor g setzen:
+
+\begin{align}
+\gamma = \frac{\mu_N g}{\hbar}
+\end{align}
+
+Legt man nun ein konstantes externes Magnetfeld in z-Richtung an, koppelt das magnetische Moment eines Kerns an das Magnetfeld und die Entartung der Zustände mit verschiedener Quantenzahl $m_I$ wird aufgehoben. Diesen Effekt bezeichnet man als Zeeman-Effekt, dessen Energien $E_Z$ sich wie folgt berechnet:
+
+\begin{align}
+E_Z = -\overrightarrow{\mu}\cdot\overrightarrow{B}=-\mu_N \cdot g \cdot B_0 \cdot m_I \\
+\overrightarrow{B}=B_0\cdot \overrightarrow{e_z}
+\end{align}
+
+Wie zu erkennen nimmt die Energiedifferenz zwischen den Zuständen linear mit dem angelegten Magnetfeld zu, sodass sich im Fall eines Kernspins $I=\frac{1}{2}$ der in Abbildung \ref{prop} dargestellte Verlauf ergibt:
+
+\begin{figure}[htbp] 
+     \includegraphics{Aufspaltung.png}
+  \caption{Proportionalität der Energiedifferenz zwischen zwei Zeemann-Zuständen}
+  \label{prop}
+\end{figure}
+
+Die Energiedifferenz zwischen den beiden Zuständen ergibt sich weiterhin zu:
+\begin{align}
+\Delta E = \vert E_{m=\frac{1}{2}} - E_{m=-\frac{1}{2}} \vert = \mu_N \cdot g \cdot B_0 = \hbar \cdot \gamma \cdot B_0 = \hbar \omega_L
+\end{align}
+$\omega_L$ bezeichnet dabei die der Energiedifferenz entsprechenden Frequenz, mit der sich Übergänge zwischen den beiden Zuständen anregen lassen. Mit dem Zahlenwert für das Kernmagneton $\mu_N=5,05 \cdot 10^{-27} \frac{J}{T}$ wird ersichtlich, dass die so entstehenden Energiedifferenzen sehr klein (ungefähr im $\mu eV$-Bereich) liegen.
+
+Liegen die Vektoren $\overrightarrow{I}$ und $\overrightarrow{B}$ nun nicht parallel zueinander, stellt sich ein Effekt ein, den man ebenfalls schon klassisch betrachten kann. Der Drehimpuls-Vektor präzessiert dabei wie in Abbildung \ref{Larmor} dargestellt  um den Magnetfeld-Vektor mit der sog. Larmor-Frequenz $\omega$. Diese bestimmt sich über vektorielle Rechnungen zu:
+\begin{align}
+\omega_L=B_0 \cdot \gamma
+\end{align}
+Die Bezeichnung $\omega_L$ ist in obiger Formel für die Energiedifferenz ist dabei nicht zufällig gewählt, da dies ebenfalls genau die Larmor-Frequenz ist. 
+
+\begin{figure}[htbp] 
+     \includegraphics{Larmor.png}
+  \caption{Larmor-Präzession eines Drehimpulsvektors um ein angelegtes Magnetfeld}
+  \label{Larmor}
+\end{figure}
+
+Für das zu untersuchende Phänomen der Kernspinresonanz müssen wir noch die Besetzungen der beiden Zuständen im Fall $I=\frac{1}{2}$ betrachten. Diese lassen sich durch die Boltzmann-Verteilung beschreiben:
+\begin{align}
+\frac{N_{m_{I+1}}}{N_{m_I}} \sim e^{-\frac{\Delta E}{k_BT}}
+\end{align}
+
+Wenn wir nun unsere kleine Energieaufspaltung zwischen den beiden Zuständen berücksichtigen nähert sich die Boltzmann-Verteilung nahezu zu 1. Wäre dies exakt der Fall, würden wir keinerlei Resonanz-Effekte messen, da sich die beiden Effekte der Photon-Absorption und der stimulierten Emission gerade aufheben würden. Dies ist aber nicht exakt der Fall, denn natürlicherweise liegen mehr Kernteilchen im energetisch niedrigeren Zustand vor. Durch Anregung mit der Resonanzfrequenz $\omega_L$ lassen sich diese Kernteilchen auf den energetisch höheren $m_I=-\frac{1}{2}$-Zustand anheben und wir können eine Absorption der Strahlung im entsprechenden Frequenzbereich beobachten. Bestrahlt man eine Probe längere Zeit mit der entsprechenden Frequenz, so stellt sich nach und nach das oben erwähnte Gleichgewicht ein und anschließend wird keine Absorption mehr  beobachtet. Mit der Zeit stellt sich nach Abstellen der Strahlung wieder der Grundzustand ein, da die Kernteilchen über Spin-Spin- oder Spin-Gitter-Wechselwirkungen wieder Energie abgeben können. Charakteristisch für diese Effekte sind die sogenannten Relaxationszeiten, welche zwischen $10^{-4}s$ und mehreren $10^4s$ liegen können.
