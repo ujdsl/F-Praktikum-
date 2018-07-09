@@ -7,10 +7,11 @@ If we simply would turn on magnetic field and radiation, the $m_f=2$ - state wou
 Before we can start our measurement, we need to compensate the earth magnetic field which otherwise would distort our results and even could make the measurement impossible because of its strenght. The earth magnetic field values are $B_h= 20 \mu T$ and $B_v = 44 \mu T$, while the magnetic field of a pair of helmholtz coils can be calculated by:
 
 \begin{align}
+\label{Bfield}
 B= \left(\frac{4}{5}\right)^{\frac{3}{2}}\frac{\mu _0 nI}{R}
 \end{align}
 
-There n is the number of windigs in the Helmholtz coils and R the radius of the coils. The characteristic values and the calculated current for the helmholtz coils are found in Table \ref{coils}. 
+Where n is the number of windigs in the Helmholtz coils and R the radius of the coils. The characteristic values and the calculated current for the helmholtz coils are found in Table \ref{coils}. 
 
 \begin{table}[h]
 	\caption{Values of Helmholtz coils}
@@ -40,7 +41,7 @@ To measure the Zeeman-splitting, we use the described effect of stimulated emiss
 E = g_f\left(\frac{e\hbar}{2m}\right)Bm_f
 \end{align}
 
-The Landé-factor $g_f$ can be calculate by the formula in the theoreticals part. As we have our atoms in the $^{2}s_{\frac{1}{2}}$-state, we have $L=0$, $S=\frac{1}{2}$ and $J=\frac{1}{2}$. For the nuclei-spins we have $I=\frac{3}{2}$ for $^{87}Rb$ and $I=\frac{5}{2}$ for $^{85}Rb$. With that, we can calculate the theoretical Zeeman-splitting for both Rb-isotopes. With the relation $E=h\nu$ we can calculate our theoretical frequency, with which we need to apply the AC-current. Since we have different tolerances in our experiment which distort our measurements, we pick up three values for the applied magnetic fields (e.G. the applied DC current) and look for the resonant frequency which shows the appearing stimulated emission. The used currents and the calculated magnetic fields, frequencies and found frequencies for both Rb-isotopes are found in table \ref{Zeeman}.
+The Landé-factor $g_f$ can be calculate by the formula in the theoreticals part. As we have our atoms in the $^{2}s_{\frac{1}{2}}$-state, we have $L=0$, $S=\frac{1}{2}$ and $J=\frac{1}{2}$. For the nuclei-spins we have $I=\frac{3}{2}$ for $^{87}Rb$ and $I=\frac{5}{2}$ for $^{85}Rb$. With that, we can calculate the theoretical Zeeman-splitting for both Rb-isotopes. With the relation $E=h\nu$ we can calculate our theoretical frequency, with which we need to apply the AC-current. Since we have different tolerances in our experiment which distort our measurements, we pick up three values for the applied magnetic fields (e.G. the applied DC current) and look for the resonant frequency which shows the appearing stimulated emission. The used currents and the calculated magnetic fields, frequencies and found frequencies for both Rb-isotopes are found in table \ref{Zeeman1}.
 
 The values for $g_f$ for both Rb-isotopes are:
 
@@ -58,7 +59,7 @@ g_f \left(^{87}Rb\right) = \frac{1}{2}
 	 $I=0,09 A$ & 2,16 & 1,51 MHz& 1,01 MHz& 1,35 MHz& 0,84 MHz\\ \hline
 	 $I=0,11 A$ & 2,64 & 1,85 MHz& 1,23 MHz& 1,66 MHz& 1,11 MHz\\ \hline
 	\end{tabular}
-\label{Zeeman}
+\label{Zeeman1}
 \end{table}
 
 According to that, we calculate the experimental energy values and the average for both isotopes:
@@ -71,5 +72,25 @@ According to that, we calculate the experimental energy values and the average f
 	 $^{85}$Rb & 1,68 & 1,17 MHz & 0,78 MHz& 1,03 MHz& 0,68 MHz\\ \hline
 	 $^{87}$Rb & 2,16 & 1,51 MHz& 1,01 MHz& 1,35 MHz& 0,84 MHz\\ \hline
 	\end{tabular}
-\label{Zeeman}
+\label{Zeeman2}
 \end{table}
+The experimental value for the Landé-factor can be calculated by using this formula:
+\begin{equation}
+ g_F=\frac{\Delta E}{B}\cdot \frac{2m_e}{e\hbar}
+\end{equation}
+$m_e$ is the electron mass, $e$ is the elementary electric charge and $\hbar$ is the Planck constant. 
+For the 3 different values of the magnetic field you get these Landé-factors:
+\begin{table}[h]
+ \caption{The experimental Landé-factors for $^{87}Rb$ and $^{85}Rb$}
+ \begin{tabular}{|c|c|c|}
+  \hline
+  & $g_F(^{87}Rb)$ & $g_F(^{85}Rb)$\\
+  \hline $B = 0,168mT$& $0,44$& $0,29$ \\
+  \hline $B = 0,216mT$& $0,45$ & $0,28$ \\
+  \hline $B = 0,264mT$&$0,45$& $0,30$ \\
+  \hline Average & $0,45$& $0,29$\\
+  \hline
+ \end{tabular}
+\end{table}
+This error of more than $10\%$ cannot be the consequence of the additional earth magnetic field, because it is much smaller than the applied magnetic field. But the error might be explained by the fact that the actual magnetic field might differ from the value calculated by equation (\ref{Bfield}). If the magnetic field is slighly smaller than calculated by the formula, it results in higher Landé-factors, which would be more accurate in both cases.
+
