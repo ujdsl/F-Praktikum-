@@ -2,5 +2,5 @@
 \contentsline {section}{\numberline {1}Target}{3}
 \contentsline {section}{\numberline {2}Theorie}{3}
 \contentsline {section}{\numberline {3}construction of experiment and used devices}{6}
-\contentsline {section}{\numberline {4}Execution and results}{6}
-\contentsline {section}{\numberline {5}Zusammenfassung/Fazit}{6}
+\contentsline {section}{\numberline {4}Durchf\IeC {\"u}hrung und Auswertung}{6}
+\contentsline {section}{\numberline {5}Zusammenfassung/Fazit}{8}
