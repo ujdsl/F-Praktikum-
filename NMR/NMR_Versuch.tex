@@ -1,17 +1,9 @@
-\section{Durchführung und Auswertung}
-In unserem Versuch untersuchen wir drei verschiedene Proben auf ihre spezifische Resonanzenergie, die für den Übergang zwischen den beiden Zeeman-Zuständen charakteristisch ist. Zunächst untersuchen wir Glycerin, dessen g-Faktor mit $g=5,586$ bekannt ist. Damit können wir gemäß der Theorie das eingestrahlte Magnetfeld berechnen und für die anderen Messungen verwenden. Anschließend untersuchen wir jeweils eine Probe mit in Wasser aufgelöstem $CuSO_4$ und Teflon und bestimmen aus den ermittelten Resonanzenergien die g- und $\gamma$-Faktoren.
-
-Um keine Sättigung der Zustände zu erhalten, überlagern wir das konstante Magnetfeld des Hufeisenmagnets mit einem geringen Wechselfeld mithilfe von einem Spulenpaar, welches von Wechselstrom durchflossen wird. Das Wechselstromsignal zeigen wir gemeinsam mit dem Signal der Detektorspule auf dem Oszilloskop an, wie in Abbildung \ref{oszi} zu sehen. 
-
-\begin{figure}[htbp] 
-     \includegraphics[scale=0.5]{Oszi.jpg}
-  \caption{Oszilloskop mit Wechselstromsignal und Detektorsignal}
-  \label{oszi}
-\end{figure}
+\section{Ergebnisse und Auswertung}
+In unserem Versuch untersuchen wir drei verschiedene Proben auf ihre spezifische Resonanzenergie, die für den Übergang zwischen den beiden Zeeman-Zuständen charakteristisch ist. Zunächst untersuchen wir Glycerin, dessen $\gamma$-Faktor mit $\gamma=26,7519\cdot 10^7\frac{rad}{T\cdot s}$ \cite{anleitung} bekannt ist. Damit können wir gemäß der Theorie das eingestrahlte Magnetfeld berechnen und für die anderen Messungen verwenden. Anschließend untersuchen wir jeweils eine Probe mit in Wasser aufgelöstem $CuSO_4$ und Teflon und bestimmen aus den ermittelten Resonanzenergien die g- und $\gamma$-Faktoren.
 
 Um unsere Messungen vergleichen zu können, ist es wichtig diese bei gleichem Magnetfeld durchzuführen. Um die entsprechenden Resonanzfrequenzen bestimmen zu können, verändern wir die Frequenz des eingestrahlten Feldes kontinuierlich, bis sich die beiden am Oszilloskop erkennbaren Maxima genau aufheben. Dies geschieht genau am Maximum bzw. Minimum des magnetischen Wechselfeldes, sodass wir so den minimalen bzw. maximalen Wert des angelegten Magnetfelds bestimmen und annehmen können. Leider zeigen die verwendete Elektronik und Leitungen ein sehr hohes Rauschen, sodass die tatsächlichen Maxima im Detektorsignal nur sehr schwer vom Hintergrundrauschen zu unterscheiden waren. Aus diesem Grund nehmen wir für jede Messung 10 Messwerte am Magnetfeld-Maximum und -Minimum auf, um eventuelle Ungenauigkeiten herausmitteln zu können. 
 
-Die aufgenommen Messwerte zusammen mit den berechneten Mittelwerten für die Resonanzfrequenzen finden sich in Tabelle \ref{freqs}.
+Die aufgenommen Messwerte zusammen mit den berechneten Mittelwerten für die Resonanzfrequenzen finden sich in Tabelle \ref{freqs}. Dort ist auch die Standardabweichung der Messungen gegeben, die jeweils für die Fehlerfortpflanzungsrechnungen genutzt wird.  
 
 \begin{table}[h]
 	\caption{Resonanzfrequenzen der untersuchten Verbindungen}
@@ -39,22 +31,66 @@ Aus den aufgenommenen Werten für Glycerin können wir nun das angelegte Magnetf
 
 \begin{gather}
 B=\frac{f \cdot 2\pi}{\gamma} \\
-B_{max}=\frac{32411,9 \cdot 10^3 \cdot 2\pi}{26,75 \cdot 10^7} \pm \frac{2,3 \cdot 10^3 \cdot 2\pi}{26,75 \cdot 10^7}  \approx 0,76131  \pm 0,00005 T \\
-B_{min}=\frac{31647 \cdot 10^3 \cdot 2\pi}{26,75 \cdot 10^7} \pm \frac{1,7 \cdot 10^3 \cdot 2\pi}{26,75 \cdot 10^7}   \approx 0,74334 \pm 0,00004 T
+B_{max}=\left[\frac{32411,9 \cdot 10^3 \cdot 2\pi}{26,75 \cdot 10^7} \pm \frac{2,3 \cdot 10^3 \cdot 2\pi}{26,75 \cdot 10^7}\right] T  \approx \left[0,76131  \pm 0,00005\right] T \\
+B_{min}=\left[\frac{31647 \cdot 10^3 \cdot 2\pi}{26,75 \cdot 10^7} \pm \frac{1,7 \cdot 10^3 \cdot 2\pi}{26,75 \cdot 10^7}\right] T  \approx \left[0,74334 \pm 0,00004 \right] T
 \end{gather}
 
-Mit diesen Werten und den gemessenen Resonanzfrequenzen können wir nun $\gamma$ und die g-Faktoren für $CuSO_4$ und Teflon bestimmen. 
+Die Fehler der Magnetfelder wurden mit Hilfe der Formel
+\begin{equation}
+ \Delta B = \frac{\Delta f \cdot 2\pi}{\gamma}
+\end{equation}
+
+
+Mit diesen Werten und den gemessenen Resonanzfrequenzen können wir nun $\gamma$ und die g-Faktoren für $CuSO_4$ und Teflon bestimmen. Zusätzlich wird noch der g-Faktor für Glycerin bestimmt, welcher sich aus der Formel
+\begin{equation}
+ g = \frac{\gamma\cdot 2m_P}{e}
+\end{equation}
+ergibt. Berechnet wurde hier ein Wert von $g= 5,586$. Dies entspricht dem g-Faktor für den Kern des Wasserstoff-Atoms.
+
+Die $\gamma$-Faktoren werden nun für die beiden Proben Teflon und Kupfersulfat aus dem zuvor bestimmten Magnetfeld und der gemessenen Frequenz berechnet. Die Formel ist dann
+\begin{equation}
+ \gamma = \frac{f\cdot 2\pi}{B}.
+\end{equation}
+Der Fehler aus der Fehlerfortpflanzung ergibt sich dann zu
+\begin{equation}
+ \Delta \gamma = \frac{\Delta f\cdot 2\pi}{B} + \frac{f\cdot 2\pi}{B^2}\cdot \Delta B.
+\end{equation}
+
+Zusätzlich wird der g-Faktor mit der Formel
+\begin{equation}
+ g = \frac{\gamma\cdot 2 m_P}{e}
+\end{equation}
+berechnet. $m_P$ ist die Masse des Proton, $e$ die Elementarladung. Sein Fehler wird mit Hilfe der Formel
+\begin{equation}
+ \Delta g = \frac{\Delta \gamma \cdot 2 m_P}{e}
+\end{equation}
+bestimmt. In den unten stehenden Tabellen \ref{gammas1} und \ref{gammas2} sind die Ergebnisse aufgeführt.
+
 
 \begin{table}[h]
-	\caption{Experimentell bestimmte Faktoren}
-	\begin{tabular}{|c|c|c|c|c|c|c|}
+	\caption{Experimentell bestimmte Faktoren $CuSO_4$}
+	\begin{tabular}{|c|c|c|c|}
 	\hline
-	& \multicolumn{3}{|c|}{$CuSO_4$} & \multicolumn{3}{|c|}{Teflon} \\ \hline
-	& $f_{max}$ & $f_{min}$  & $\varnothing $  & $f_{max}$ & $f_{min}$ &  $\varnothing$ \\ \hline
-	Landé-Faktor g & 5,5855 & 5,5857 & 5,5856 & 5,2526 & 5,2572 & 5,2549 \\ \hline
-	$\gamma \cdot 10^{-7}$ in rad. $T^{-1} s^{-1}$& 26,747 & 26,749 & 26,748 & 25,153 & 25,176 & 25,165 \\ \hline
+	& \multicolumn{3}{|c|}{$CuSO_4$}\\ \hline
+	& $f_{max}$ & $f_{min}$  & $\varnothing $  \\ \hline
+	Landé-Faktor g & $5,5851\pm0,0009$ & $5,5854\pm0,0007$ & $5,5853$\\ \hline
+	$\gamma \cdot 10^{-7}$ in $\frac{rad}{T\cdot s}$& $26,7496 \pm 0,0041$ & $26,7507\pm0,0031$ &  $26,7502$\\ \hline
 	\end{tabular}
-\label{gammas}
+\label{gammas1}
 \end{table}	
 
+\begin{table}[h]
+	\caption{Experimentell bestimmte Faktoren Teflon}
+	\begin{tabular}{|c|c|c|c|}
+	\hline
+	& \multicolumn{3}{|c|}{Teflon} \\ \hline
+	&  $f_{max}$ & $f_{min}$ &  $\varnothing$ \\ \hline
+	Landé-Faktor g  & $5,2523\pm0,0011$ & $5,2569\pm0,0013$ & $5,2546$ \\ \hline
+	$\gamma \cdot 10^{-7}$ in $\frac{rad}{T\cdot s}$&  $25,1552\pm0,0051$ & $25,1776\pm0,0063$ & $25,1664$\\ \hline
+	\end{tabular}
+\label{gammas2}
+\end{table}	
 
+Vergleicht man die berechneten $\gamma$-Faktoren mit den Literaturwerten, kann man die unterschiedlichen Kernmomente identifizieren. Im Fall von Kupfersulfat wurde ein gyromagnetisches Verhältnis von $26,7502\cdot 10^7\frac{rad}{T\cdot s}$ berechnet. Das entspricht ziemlich genau dem gyromagnetischen Verhältnis von Wasserstoff von $26,7519\cdot 10^7\frac{rad}{T\cdot s}$, was Sinn ergibt, da das Kupfersulfat in Wasser gelöst ist. Das Kupfersulfat selbst hat also keine Resonanz auf die anregeneden Radiowellen gezeigt.
+
+Beim Teflon ($(C_2F_4)_n$) wurde experimentell ein gyromagnetisches Verhältnis von $25,1664\cdot 10^7\frac{rad}{T\cdot s}$ bestimmt, was dem gyromagnetischen Verhältnis von Fluor-19 mit $25,181\cdot 10^7\frac{rad}{T\cdot s}$ sehr nahe kommt. Insgesamt liegen die Literaturwerte gut in dem experimentellen Fehlerintervall. Da die $g$-Faktoren nur von $\gamma$ und Konstanten abhängen, lassen sich dieselben Schlussfolgerungen auch für die $g$-Faktoren ziehen.
