@@ -3,12 +3,12 @@
 \contentsline {section}{\numberline {2}Theoretische Grundlagen}{3}
 \contentsline {subsection}{\numberline {2.1}Ph\IeC {\"a}nomene der Supraleitung}{3}
 \contentsline {subsection}{\numberline {2.2}Supraleiter 1. und 2. Art}{4}
-\contentsline {subsection}{\numberline {2.3}Theorien der Supraleitung}{6}
-\contentsline {subsubsection}{\numberline {2.3.1}London-Theorie}{6}
-\contentsline {subsubsection}{\numberline {2.3.2}Ginzburg-Landau-Theorie}{7}
-\contentsline {subsubsection}{\numberline {2.3.3}BCS-Theorie}{7}
-\contentsline {section}{\numberline {3}Versuchsaufbau und Messger\IeC {\"a}te}{8}
-\contentsline {subsection}{\numberline {3.1}AC-Suzeptibilit\IeC {\"a}t}{8}
-\contentsline {subsection}{\numberline {3.2}Phasen\IeC {\"u}bergang der Indiumprobe}{8}
-\contentsline {section}{\numberline {4}Durchf\IeC {\"u}hrung und Auswertung}{10}
-\contentsline {section}{\numberline {5}Zusammenfassung/Fazit}{11}
+\contentsline {subsection}{\numberline {2.3}Theorien der Supraleitung}{7}
+\contentsline {subsubsection}{\numberline {2.3.1}London-Theorie}{7}
+\contentsline {subsubsection}{\numberline {2.3.2}Ginzburg-Landau-Theorie}{8}
+\contentsline {subsubsection}{\numberline {2.3.3}BCS-Theorie}{8}
+\contentsline {section}{\numberline {3}Versuchsaufbau und Messger\IeC {\"a}te}{9}
+\contentsline {subsection}{\numberline {3.1}AC-Suzeptibilit\IeC {\"a}t}{9}
+\contentsline {subsection}{\numberline {3.2}Phasen\IeC {\"u}bergang der Indiumprobe}{11}
+\contentsline {section}{\numberline {4}Durchf\IeC {\"u}hrung und Auswertung}{12}
+\contentsline {section}{\numberline {5}Zusammenfassung/Fazit}{12}
