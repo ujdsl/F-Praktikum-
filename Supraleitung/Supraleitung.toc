@@ -9,6 +9,9 @@
 \contentsline {subsubsection}{\numberline {2.3.3}BCS-Theorie}{8}
 \contentsline {section}{\numberline {3}Versuchsaufbau und Messger\IeC {\"a}te}{9}
 \contentsline {subsection}{\numberline {3.1}AC-Suzeptibilit\IeC {\"a}t}{9}
-\contentsline {subsection}{\numberline {3.2}Phasen\IeC {\"u}bergang der Indiumprobe}{11}
+\contentsline {subsection}{\numberline {3.2}Phasen\IeC {\"u}bergang der Indiumprobe}{10}
 \contentsline {section}{\numberline {4}Durchf\IeC {\"u}hrung und Auswertung}{12}
-\contentsline {section}{\numberline {5}Zusammenfassung/Fazit}{12}
+\contentsline {subsection}{\numberline {4.1}Messung der Schwebeh\IeC {\"o}hen}{12}
+\contentsline {subsection}{\numberline {4.2}Messung der AC-Suszeptibilit\IeC {\"a}t}{13}
+\contentsline {subsection}{\numberline {4.3}Temperaturabh\IeC {\"a}ngigkeit des Widerstands}{14}
+\contentsline {section}{\numberline {5}Zusammenfassung/Fazit}{15}

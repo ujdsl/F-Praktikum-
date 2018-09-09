@@ -1,5 +1,39 @@
 \section{Durchführung und Auswertung}
 
+\subsection{Messung der Schwebehöhen}
+
+Die Messung der Schwebehöhen eines Permanentmagneten über einem $YBa_2CU_3O_7$-Hochtemperatursupraleiter erfolgt auf zwei Arten. Zum einen wird der magnetische Fluss quasi konstant gehalten und zum anderen wird die Temperatur konstant gehalten, während das jeweils andere verändert wird.
+Zunächst wird der Permanentmagnet auf den Supraleiter gelegt, der von Raumtemperatur auf $77K$ abgekühlt wird. Der Supraleiter wird so bei konstantem Magnetfeld abgekühlt. Es wird dann nah einer Zeit, nachdem der Supraleiter unter die kritische Temperatur abgekühlt wurde, ein sich nicht mehr verändernder Schwebezustand erreicht, dessen Höhe dann gemessen werden kann. Der Magnet schwebt nicht genau waagerecht über dem Supraleiter, sodass an der höchsten und an der niedrigsten Stelle gemessen wird und der Mittelwert für den späteren Vergleich genutzt wird. Eine mögliche Erklärung dafür ist ein nicht senkrecht zur Oberfläche ausgerichtetes permanentes Magnetfeld.
+
+Nun wird der Permanentmagnet vom Supraleiter entfernt und aus weiterer Entfernung von oben an den Supraleiter herangeführt. Dies geschieht mit Hilfe eines Papierstreifens, sodass der Magnet beim Übergang in die Schwebephase ungehindert vom Papierstreifen eintreten kann. Der magnetische Fluss wird dadurch im Supraleiter erhöht und er befindet sich währenddessen in der supraleitenden Phase.
+
+\begin{table}[h]
+\caption{Schwebehöhenbestimmung eines Permanentmagneten über dem Supraleiter}
+\begin{tabular}[h]{|l|l|l|}
+\hline
+ & B = const. &  T=const. \\
+\hline
+niedrigster Punkt & 1,8 mm & 3,2 mm \\
+höchster Punkt & 2,0 mm & 5,0 mm \\
+Mittelwert & 1,9 mm & 4,1 mm \\ \hline
+\label{schwebe}
+\end{tabular}
+\end{table}
+
+In Tabelle \ref{schwebe} ist zu erkennen, dass der Magnet beim Heranführen bei konstanter Temperatur deutlich höher schwebt, als bei konstantem Magnetfeld und Herabsenken der Temperatur. Dies lässt sich dadurch erklären, dass sich der Supraleiter in der Shubnikow-Phase eines Supraleiters 2. Art befindet sich im ersten der Meißner-Ochsenfeld-Effekt zeigt. Beim Übergang in die supraleitende Phase wird allerdings nur ein Teil des Magnetfelds aus dem Supraleiter durch Abschirmströme verdrängt. Wird der Permanentmagnet in der supraleitenden Phase an den Supraleiter herangeführt, werden Induktionsströme erzeugt, die dem Magnetfeld des Permanentmagneten entgegenwirken. Durch den nicht vorhandenen Widerstand klingen diese Induktionsströme nicht ab und das Magnetfeld wird komplett aus dem Supraleiter verdrängt. Das entgegenwirkende magnetische Moment ist also größer als im ersten Fall und so erklärt sich der Unterschied in der Schwebehöhe. Da diese Phase (Shubnikovphase) keinen eindeutigen Zustand hat, ist sie keine thermodynamische Phase, sondern kann als Mischphase bezeichnet werden.
+
+\subsection{Messung der AC-Suszeptibilität}
+
+\begin{figure}[h]
+\includegraphics[width=\textwidth]{Temperaturverlauf_der_AC-Suszeptibilitaet_der_Indiumprobe.pdf}
+\label{ac-sus}
+\end{figure}
+
+Während die Indiumprobe heruntergekühlt wird und sich danach wieder erwärmt, wird mit Hilfe eines magnetischen Wechselfeldes die AC-Suszeptibilität gemessen. In Abbildung \ref{ac-sus} sieht man den Temperaturverlauf der komplexen AC-Suszeptibilität. Auf der linken roten Achse ist der Wert des Realteils der AC-Suszeptibilität dargestellt und auf der rechten blauen Achse der Imaginärteil. Bis zur kritischen Temperatur $T_c$ verlaufen beide Anteile recht konstant. Bei der kritischen Temperatur fällt der Realteil schnell auf einen konstanten negativen Wert ab, während der Imaginärteil einen Peak aufweist und bei niedrigeren Temperaturen auf nahezu 0 absinkt. Der Rückweg zu höheren Temperaturen nimmt einen ähnlichen Verlauf, es ist aber eine kleine Hysterese zu erkennen, die sich durch die thermodynamischen Effekte begründen, d.h. das Thermometer befindet sich nicht im thermodynamischen Gleichgewicht mit der Probe.
+
+Während der Realteil der AC-Suszeptibilität den klassischen Charakter des Supraleiters als idealer Diamagnet zeigt, stellt der Imaginärteil eine Größe für die durch das Magnetfeld in der Probe dissipierte Wirkleistung dar. Die vom Wechselfeld induzierten Ströme sind bei endlichem Widerstand schließlich verlustbehaftet und es wird Leistung abgegeben. Das erkärt auch das Absinken des Imaginärteils in der supraleitenden Phase auf annähernd 0, da das Innere des Supraleiters komplett feldfrei bleibt und so keine Leistung verbraucht werden kann.
+
+\subsection{Temperaturabhängigkeit des Widerstands}
 Es wurden vier Messungen bei $I \in {0,100,200,300}$ mA gemacht. Eine Messung startete stets bei großen Temperaturen; durch einen Unterdruck wurde auf $T=2,8$K runtergekühlt und schließlich wieder Helium eingelassen, sodass sich jeweils ein geschlossener Weg in der $R(T)$-Kurve bildet, die aufgenommen wurde. Die die angelegten Ströme sind dabei schon in den Betrag der induzierter Magnetfelder umgerechnet. Da es sich um eine einfache Helmholtzspule mit Radius $R=15$mm, Windungszahl $N=750$ handelt, gilt die Propertionalität
 
 \begin{equation}
